@@ -1,0 +1,60 @@
+.flex {
+  display: flex;
+}
+
+.direction-column {
+  flex-direction: column;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-end {
+  justify-content: flex-end;
+}
+
+.justify-space-around {
+  justify-content: space-around;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+
+.submenu {
+  z-index: 0;
+}
+
+.photo,
+.selections {
+  z-index: 1;
+}
+
+.minus-percentage,
+#cast-reaction,
+.life,
+.lost-life {
+  z-index: 2;
+}
+
+.difficulties,
+.container-hp {
+  z-index: 3;
+}
+
+#cast-reaction {
+  bottom: 8vh;
+}
+
+.container-hp {
+  right: 13.2vh;
+}

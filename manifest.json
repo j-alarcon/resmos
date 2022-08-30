@@ -1,0 +1,137 @@
+{
+  "name": "Reactions",
+  "short_name": "Reactions",
+  "description": "Strategic game in which you can combine elements to generate differents reactions",
+  "developer": {
+    "name": "Javier Alarcón",
+    "url": "https://github.com/j-alarcon"
+  },
+  "version": "1.0",
+  "iarc_rating_id": "a757ab02-a453-4066-baf4-00547cc0da88",
+  "categories": ["games", "entertainment", "strategy"],
+  "screenshots": [
+    {
+      "src": "./img/pwa/screenshots/start_computer.webp",
+      "sizes": "1920x998",
+      "type": "image/webp",
+      "platform": "wide",
+      "label": "Start of application"
+    },
+    {
+      "src": "./img/pwa/screenshots/battle_computer.webp",
+      "sizes": "1920x998",
+      "type": "image/webp",
+      "platform": "wide",
+      "label": "Battle between the two players"
+    },
+    {
+      "src": "./img/pwa/screenshots/finish_computer.webp",
+      "sizes": "1920x998",
+      "type": "image/jpg",
+      "platform": "wide",
+      "label": "Finish of the match"
+    },
+    {
+      "src": "./img/pwa/screenshots/start_mobile.webp",
+      "sizes": "720x1435",
+      "type": "image/webp",
+      "platform": "narrow",
+      "label": "Start of application"
+    },
+    {
+      "src": "./img/pwa/screenshots/battle_mobile.webp",
+      "sizes": "720x1435",
+      "type": "image/webp",
+      "platform": "narrow",
+      "label": "Battle between the two players"
+    },
+    {
+      "src": "./img/pwa/screenshots/finish_mobile.webp",
+      "sizes": "720x1435",
+      "type": "image/webp",
+      "platform": "narrow",
+      "label": "Finish of the match"
+    }
+  ],
+  "lang": "en",
+  "start_url": "./index.html",
+  "scope": "./",
+  "theme_color": "#161618",
+  "background_color": "#37425b",
+  "display": "standalone",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "./img/pwa/icons/reactions_icon_32x32.webp",
+      "sizes": "32x32",
+      "type": "image/webp",
+      "purpose": "maskable"
+    },
+    {
+      "src": "./img/pwa/icons/reactions_icon_48x48.webp",
+      "sizes": "48x48",
+      "type": "image/webp",
+      "purpose": "maskable"
+    },
+    {
+      "src": "./img/pwa/icons/reactions_icon_64x64.webp",
+      "sizes": "64x64",
+      "type": "image/webp",
+      "purpose": "maskable"
+    },
+    {
+      "src": "./img/pwa/icons/reactions_icon_72x72.webp",
+      "sizes": "72x72",
+      "type": "image/webp",
+      "purpose": "maskable"
+    },
+    {
+      "src": "./img/pwa/icons/reactions_icon_96x96.webp",
+      "sizes": "96x96",
+      "type": "image/webp",
+      "purpose": "maskable"
+    },
+    {
+      "src": "./img/pwa/icons/reactions_icon_128x128.webp",
+      "sizes": "128x128",
+      "type": "image/webp",
+      "purpose": "maskable"
+    },
+    {
+      "src": "./img/pwa/icons/reactions_icon_144x144.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./img/pwa/icons/reactions_icon_192x192.webp",
+      "sizes": "192x192",
+      "type": "image/webp",
+      "purpose": "maskable"
+    },
+    {
+      "src": "./img/pwa/icons/reactions_icon_256x256.webp",
+      "sizes": "256x256",
+      "type": "image/webp",
+      "purpose": "maskable"
+    },
+    {
+      "src": "./img/pwa/icons/reactions_icon_384x384.png",
+      "sizes": "384x384",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "./img/pwa/icons/reactions_icon_512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "./img/pwa/icons/reactions_icon_1024x1024.png",
+      "sizes": "1024x1024",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
