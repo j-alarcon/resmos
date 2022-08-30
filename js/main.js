@@ -61,16 +61,16 @@ let lives = [
 let percentageLife = document.getElementsByClassName("lost-life");
 
 let elements = [
-  { name: "fire", img: "./img/icons/fire.png" },
-  { name: "ice", img: "./img/icons/ice.png" },
-  { name: "wind", img: "./img/icons/wind.png" },
-  { name: "machine", img: "./img/icons/machine.png" },
+  { name: "fire", img: "./img/icons/fire.webp" },
+  { name: "ice", img: "./img/icons/ice.webp" },
+  { name: "wind", img: "./img/icons/wind.webp" },
+  { name: "machine", img: "./img/icons/machine.webp" },
 ];
 
 let reactions = [
   new Reaction(
     "water",
-    "./img/icons/water.png",
+    "./img/icons/water.webp",
     ["fire", "ice"],
     [
       { name: "snowbot", percentage: 18 },
@@ -84,7 +84,7 @@ let reactions = [
   ),
   new Reaction(
     "heatWave",
-    "./img/icons/heat_wave.png",
+    "./img/icons/heat_wave.webp",
     ["fire", "wind"],
     [
       { name: "snowbot", percentage: 15 },
@@ -97,7 +97,7 @@ let reactions = [
   ),
   new Reaction(
     "explosion",
-    "./img/icons/explosion.png",
+    "./img/icons/explosion.webp",
     ["fire", "machine"],
     [
       { name: "water", percentage: 15 },
@@ -110,7 +110,7 @@ let reactions = [
   ),
   new Reaction(
     "blizzard",
-    "./img/icons/blizzard.png",
+    "./img/icons/blizzard.webp",
     ["ice", "wind"],
     [
       { name: "water", percentage: 15 },
@@ -123,7 +123,7 @@ let reactions = [
   ),
   new Reaction(
     "snowbot",
-    "./img/icons/snowbot.png",
+    "./img/icons/snowbot.webp",
     ["ice", "machine"],
     [
       { name: "blizzard", percentage: 16 },
@@ -136,7 +136,7 @@ let reactions = [
   ),
   new Reaction(
     "hurricane",
-    "./img/icons/hurricane.png",
+    "./img/icons/hurricane.webp",
     ["machine", "wind"],
     [
       { name: "explosion", percentage: 20 },
