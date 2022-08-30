@@ -1,7 +1,6 @@
 import { Reaction } from "./model.js";
 import {
   names,
-  surnames,
   generateRandomName,
   generateRandomNumber,
   disableItems,
