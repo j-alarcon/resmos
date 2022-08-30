@@ -434,8 +434,7 @@ window.onload = () => {
 
   // Generate a random name to your rival
   document.getElementById("cpu-name").innerText = generateRandomName(
-    names,
-    surnames
+    names
   );
 
   // Select a random image to your rival
