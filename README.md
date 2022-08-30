@@ -1,8 +1,8 @@
 <strong>This PWA has been developed using HTML, CSS and JavaScript</strong>, in order to practice and develop my skills in these languages. It has offline functionality so you are able to play without an internet connection.
 
-Have you ever played rock-paper-scissors before? Are you tired of picking always the same three options? This is probably your game. Let's react! ✅
+Have you ever played rock-paper-scissors before? Are you tired of picking always the same three options? This is probably your game. Let's react!
 
-In this game you have different reactions to beat your opponents, and you are probably wondering: Why are you always talking about reactions? What do you mean?
+In this minigame you have different reactions to beat your opponents, and you are probably wondering: Why are you always talking about reactions? What do you mean?
 
 In order to fight you need to combine four main elements in pairs: ❄️ (Ice), 🔥 (Fire), 🍃 (Wind), and ⚙️ (Machine). In this way, you can generate a total of six different reactions. These are:
 
