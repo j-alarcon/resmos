@@ -248,6 +248,9 @@ function playRound(selections, lives, yourReaction, computerReaction) {
 function endGame(lives, selections) {
   for (let i = 0; i < lives.length; i++) {
     if (lives[i].innerText < 1) {
+      lives[0].innerText < 1
+        ? reproduceSound("./sounds/victory.mp3")
+        : reproduceSound("./sounds/defeat.mp3");
       disableItems(
         selections[0],
         selections[1],
@@ -294,7 +297,7 @@ function selectItem(
   containerSelected
 ) {
   item.addEventListener("click", () => {
-    reproduceSound("./sounds/pop2.mp3");
+    reproduceSound("./sounds/select.mp3");
 
     // Change image and attribute according to selected element
     selectedSubmenuIcon.src = elements.find(
@@ -433,9 +436,7 @@ window.onload = () => {
   }
 
   // Generate a random name to your rival
-  document.getElementById("cpu-name").innerText = generateRandomName(
-    names
-  );
+  document.getElementById("cpu-name").innerText = generateRandomName(names);
 
   // Select a random image to your rival
   document.getElementById("computer-photo").style.backgroundImage =
@@ -462,7 +463,7 @@ difficulties.forEach((e) => {
 Array.from(checkBox).forEach((e, i) => {
   e.addEventListener("click", () => {
     showHideMenu(e, submenus[i]);
-    reproduceSound("./sounds/pop1.mp3");
+    reproduceSound("./sounds/pop.mp3");
   });
 });
 
@@ -495,7 +496,7 @@ options.forEach((e, i) => {
 });
 
 document.getElementById("cast-reaction").addEventListener("click", () => {
-  reproduceSound("./sounds/whoosh.mp3");
+  reproduceSound("./sounds/cast.mp3");
 
   // Get player reaction
   let playerReaction = getReaction(
