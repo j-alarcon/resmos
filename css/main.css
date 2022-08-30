@@ -172,7 +172,7 @@
 }
 
 .border-white {
-  border: 0.4vh solid white;
+  border: 0.6vh solid white;
 }
 
 .no-border {
@@ -235,8 +235,8 @@ body {
 
 .life {
   width: 1.3vh;
-  margin-top: 10.1%;
-  margin-left: 9%;
+  margin-top: 1.9vh;
+  margin-left: 1.5vh;
   height: 62%;
 }
 
@@ -247,8 +247,8 @@ body {
 
 .container-hp {
   height: 3.1vh;
-  margin-top: 60%;
-  margin-right: -1.7%;
+  margin-top: 9.9vh;
+  margin-right: -.4vh;
   font-size: 1.9vh;
   border-top-right-radius: 0.8vh;
 }
@@ -256,7 +256,7 @@ body {
 .minus-percentage {
   padding: 0.6vh;
   font-size: 1.7vh;
-  margin-left: 3.2vh;
+  margin-left: 3vh;
   margin-top: 2vh;
 }
 
