@@ -93,106 +93,6 @@ export let names = [
   "Marlon",
 ];
 
-export let surnames = [
-  "Wang",
-  "Smith",
-  "Devi",
-  "Inanov",
-  "Kim",
-  "Ali",
-  "García",
-  "Müller",
-  "da Silva",
-  "Tesfaye",
-  "Nguyen",
-  "Illunga",
-  "González",
-  "Deng",
-  "Moyo",
-  "Hansen",
-  "Li",
-  "Zhang",
-  "Chen",
-  "Liu",
-  "Huang",
-  "Wu",
-  "Xu",
-  "Khan",
-  "Sun",
-  "Bai",
-  "Kaur",
-  "Cao",
-  "Lopez",
-  "Hassan",
-  "Hussain",
-  "Ceng",
-  "Ibrahim",
-  "Xiao",
-  "Cheng",
-  "Perez",
-  "Dong",
-  "Sanchez",
-  "Kumari",
-  "Jin",
-  "Ferreira",
-  "Alves",
-  "Qiu",
-  "Gomez",
-  "Índigo",
-  "Abdul",
-  "Smith",
-  "Torres",
-  "Musa",
-  "Ramos",
-  "Fernández",
-  "Morales",
-  "Johnson",
-  "Tao",
-  "Jimenez",
-  "Gutierrez",
-  "Ruiz",
-  "Castillo",
-  "Alvarez",
-  "Ocaña",
-  "Brown",
-  "Martin",
-  "Jones",
-  "Qu",
-  "Rana",
-  "Sekh",
-  "Bi",
-  "Mahmoud",
-  "Moreno",
-  "de Jesús",
-  "Lee",
-  "Ismail",
-  "Malik",
-  "Tong",
-  "Niu",
-  "Joseph",
-  "Barman",
-  "Soares",
-  "Saeed",
-  "Herrera",
-  "Perdomo",
-  "Adam",
-  "Lima",
-  "Medina",
-  "Muñoz",
-  "Paswan",
-  "Shen",
-  "Camara",
-  "Ou",
-  "Ha",
-  "Haji",
-  "Naik",
-  "da Costa",
-  "Tanaka",
-  "Watanabe",
-  "Shinde",
-  "Ito",
-];
-
 export function reproduceSound(fileName) {
   new Audio(fileName).play();
 }
@@ -203,12 +103,10 @@ export function disableItems(...items) {
   }
 }
 
-export function generateRandomName(name, surname) {
+export function generateRandomName(name) {
   // Floor use is intended to don't get out of index of array
   return (
-    name[Math.floor(Math.random() * name.length)] +
-    " " +
-    surname[Math.floor(Math.random() * surname.length)]
+    name[Math.floor(Math.random() * name.length)]
   );
 }
 
