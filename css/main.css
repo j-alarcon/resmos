@@ -8,6 +8,16 @@
   border-bottom-right-radius: 2vh;
 }
 
+.invisible,
+img[src=""] {
+  opacity: 0;
+}
+
+.item-submenu-left:hover,
+#right-submenu span:hover {
+  background-color: #f0e6e5;
+}
+
 .max-width {
   width: 100%;
 }
@@ -195,11 +205,6 @@
   visibility: hidden;
 }
 
-.invisible,
-img[src=""] {
-  opacity: 0;
-}
-
 body {
   font-family: "Poppins";
 }
@@ -322,11 +327,6 @@ body {
 #right-submenu span {
   height: 35%;
   padding-left: 1vh;
-}
-
-.item-submenu-left:hover,
-#right-submenu span:hover {
-  background-color: #f0e6e5;
 }
 
 #cast-reaction {
