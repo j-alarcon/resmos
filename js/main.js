@@ -84,7 +84,7 @@ let reactions = [
   ),
   new Reaction(
     "heatWave",
-    "./img/icons/heat-wave.png",
+    "./img/icons/heat_wave.png",
     ["fire", "wind"],
     [
       { name: "snowbot", percentage: 15 },
