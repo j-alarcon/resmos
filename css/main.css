@@ -98,8 +98,8 @@
 }
 
 .item-table {
-  width: 11vh;
-  height: 11vh;
+  width: 10vh;
+  height: 10vh;
   border: 0.6vh solid black;
 }
 
@@ -214,8 +214,7 @@ body {
 }
 
 .icon-table {
-  width: 9vh;
-  height: 9vh;
+  width: 4vh;
 }
 
 .player-ui {
@@ -343,8 +342,8 @@ body {
 }
 
 .table {
-  height: 30vh;
-  margin-top: 10.5vh;
+  height: 28vh;
+  margin-top: 19vh;
 }
 
 .difficulties {
