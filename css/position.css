@@ -51,6 +51,14 @@
   z-index: 3;
 }
 
+.players-container:first-of-type {
+  bottom: 4vh;
+}
+
+.first-ui{
+  top: 1.2vh;
+}
+
 #cast-reaction {
   bottom: 8vh;
 }
