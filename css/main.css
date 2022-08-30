@@ -277,9 +277,9 @@ body {
 }
 
 .player-name {
-  width: 101%;
   height: 2.4vh;
-  margin-top: 11.3vh;
+  padding-right: 0.3vh;
+  margin: 11vh 0 0 0;
   font-size: 1.8vh;
 }
 

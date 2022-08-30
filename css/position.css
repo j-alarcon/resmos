@@ -51,7 +51,7 @@
   z-index: 3;
 }
 
-.players-container:first-of-type {
+.players-container {
   bottom: 4vh;
 }
 
