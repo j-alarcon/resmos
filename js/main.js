@@ -8,11 +8,15 @@ import {
   setClass,
   addClass,
 } from "./utility.js";
+import languages from "./../json/languages.js";
 
 // Register the service worker
 if ("serviceWorker" in navigator) {
   navigator.serviceWorker.register("./sw.js");
 }
+
+// All items with text to be translated
+const itemsTranslate = Array.from(document.getElementsByClassName("translate"));
 
 // It is utilised to know when user does his first choice
 let selectedFirst;
@@ -423,6 +427,21 @@ function resetCheckbox(...checkboxs) {
 }
 
 window.onload = () => {
+  // Check user navigator language
+  let navigatorLanguage = navigator.language || navigator.userLanguage;
+  // Change text of application if language is registered
+  for (let p in languages) {
+    // We only use the first letters to match variants
+    if (navigatorLanguage.includes(p)) {
+      // Change language on html tag
+      document.getElementById("language").lang = p;
+      // Fill texts with detected language
+      itemsTranslate.forEach((e, i) => {
+        console.log(e);
+        e.innerText = languages[p][i];
+      });
+    }
+  }
   // If there is no localStorage data, we assign normal difficulty by default and also add selected class to CSS
   if (!localStorage.getItem("difficulty")) {
     localStorage.setItem("difficulty", "normal");
