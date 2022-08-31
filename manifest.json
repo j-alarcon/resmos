@@ -1,7 +1,7 @@
 {
   "name": "Resmos",
   "short_name": "Resmos",
-  "description": "Strategic game in which you can combine elements to generate different reactions",
+  "description": "Strategic game in which you can combine elements to generate reactions",
   "developer": {
     "name": "Javier Alarcón",
     "url": "https://github.com/j-alarcon"
@@ -62,73 +62,73 @@
   "orientation": "portrait",
   "icons": [
     {
-      "src": "./img/pwa/icons/reactions_icon_32x32.webp",
+      "src": "./img/pwa/icons/resmos_icon_32x32.png",
       "sizes": "32x32",
       "type": "image/webp",
       "purpose": "maskable"
     },
     {
-      "src": "./img/pwa/icons/reactions_icon_48x48.webp",
+      "src": "./img/pwa/icons/resmos_icon_48x48.png",
       "sizes": "48x48",
       "type": "image/webp",
       "purpose": "maskable"
     },
     {
-      "src": "./img/pwa/icons/reactions_icon_64x64.webp",
+      "src": "./img/pwa/icons/resmos_icon_64x64.png",
       "sizes": "64x64",
       "type": "image/webp",
       "purpose": "maskable"
     },
     {
-      "src": "./img/pwa/icons/reactions_icon_72x72.webp",
+      "src": "./img/pwa/icons/resmos_icon_72x72.png",
       "sizes": "72x72",
       "type": "image/webp",
       "purpose": "maskable"
     },
     {
-      "src": "./img/pwa/icons/reactions_icon_96x96.webp",
+      "src": "./img/pwa/icons/resmos_icon_96x96.png",
       "sizes": "96x96",
       "type": "image/webp",
       "purpose": "maskable"
     },
     {
-      "src": "./img/pwa/icons/reactions_icon_128x128.webp",
+      "src": "./img/pwa/icons/resmos_icon_128x128.png",
       "sizes": "128x128",
       "type": "image/webp",
       "purpose": "maskable"
     },
     {
-      "src": "./img/pwa/icons/reactions_icon_144x144.png",
+      "src": "./img/pwa/icons/resmos_icon_144x144.png",
       "sizes": "144x144",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "./img/pwa/icons/reactions_icon_192x192.webp",
+      "src": "./img/pwa/icons/resmos_icon_192x192.png",
       "sizes": "192x192",
       "type": "image/webp",
       "purpose": "maskable"
     },
     {
-      "src": "./img/pwa/icons/reactions_icon_256x256.webp",
+      "src": "./img/pwa/icons/resmos_icon_256x256.png",
       "sizes": "256x256",
       "type": "image/webp",
       "purpose": "maskable"
     },
     {
-      "src": "./img/pwa/icons/reactions_icon_384x384.png",
+      "src": "./img/pwa/icons/resmos_icon_384x384.png",
       "sizes": "384x384",
       "type": "image/png",
       "purpose": "maskable"
     },
     {
-      "src": "./img/pwa/icons/reactions_icon_512x512.png",
+      "src": "./img/pwa/icons/resmos_icon_512x512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "maskable"
     },
     {
-      "src": "./img/pwa/icons/reactions_icon_1024x1024.png",
+      "src": "./img/pwa/icons/resmos_icon_1024x1024.png",
       "sizes": "1024x1024",
       "type": "image/png",
       "purpose": "maskable"
