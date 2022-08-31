@@ -1,3 +1,4 @@
+// https://github.com/j-alarcon
 import { Reaction } from "./model.js";
 import {
   names,

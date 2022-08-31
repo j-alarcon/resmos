@@ -1,3 +1,4 @@
+// https://github.com/j-alarcon
 export class Reaction {
   constructor(name, img, origin, advantages, weaknesses) {
     this.name = name;
