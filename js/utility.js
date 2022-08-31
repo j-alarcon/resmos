@@ -9,7 +9,7 @@ export let names = [
   "Mia",
   "Lucas",
   "Chloe",
-  "Ava",
+  "Ana",
   "Noah",
   "Enzo",
   "Lea",
