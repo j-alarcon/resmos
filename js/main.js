@@ -344,6 +344,12 @@ function selectItem(
       );
       document.getElementById("result-reaction-player").src = reaction.getImg;
 
+      // Hide computer's reaction when change elements
+      setClass(
+        document.getElementById("result-reaction-computer").parentElement,
+        "hidden"
+      );
+
       // Activate or deactivate items if the new reaction is different or equal than previous one
       if (reaction != lastReactions[0]) {
         // This will control if both checkboxes are full
