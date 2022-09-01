@@ -77,19 +77,19 @@ img[src=""] {
 }
 
 .easy {
-  background-color: #25832d;
+  background-color: #24852c;
 }
 
 .normal {
-  background-color: #c74b1a;
+  background-color: #17509b;
 }
 
 .hard {
-  background-color: #c43124;
+  background-color: #bd3a2e;
 }
 
 .selected {
-  background-color: #6e4327;
+  background-color: #37425b;
 }
 
 .outline {
@@ -354,5 +354,5 @@ body {
 }
 
 .difficulty:hover {
-  background-color: #db4f17;
+  opacity: 0.9;
 }
