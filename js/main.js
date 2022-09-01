@@ -445,7 +445,6 @@ window.onload = () => {
       document.getElementById("language").lang = p;
       // Fill texts with detected language
       itemsTranslate.forEach((e, i) => {
-        console.log(e);
         e.innerText = languages[p][i];
       });
     }
