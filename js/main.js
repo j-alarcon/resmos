@@ -335,7 +335,6 @@ function selectItem(
 
     // If the first element is selected, the reaction icon will lose his sepia filter and locked items will be activated
     if (containerSelectionsPlayer[1].getAttribute("data-value")) {
-
       // We generate a reaction and try to show it in his panel
       let reaction = getReaction(
         containerSelectionsPlayer[0].getAttribute("data-value"),
