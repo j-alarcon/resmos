@@ -67,7 +67,10 @@ let lives = [
 
 let percentageLife = document.getElementsByClassName("lost-life");
 
-let tablePanels = [document.getElementById("table-player"), document.getElementById("table-computer")];
+let tablePanels = [
+  document.getElementById("table-player"),
+  document.getElementById("table-computer"),
+];
 
 let elements = [
   { name: "fire", img: "./img/icons/fire.png" },
@@ -520,8 +523,6 @@ options.forEach((e, i) => {
 });
 
 document.getElementById("cast-reaction").addEventListener("click", () => {
-  reproduceSound("./sounds/cast.mp3");
-
   // Get player reaction
   let playerReaction = getReaction(
     containerSelectionsPlayer[0].getAttribute("data-value"),
@@ -529,38 +530,39 @@ document.getElementById("cast-reaction").addEventListener("click", () => {
     reactions
   );
 
-  // Get computer elements selected
-  let computerElements = [];
-  computerPlay(
-    elements,
-    localStorage.getItem("difficulty"),
-    playerReaction
-  ).forEach((e, i) => {
-    // Define images and styles to elements according to generated reaction
-    submenusIconsComputer[i].src = e.img;
-    setClass(containerSelectionsComputer[i], e.name);
-    // Save names of each element selected by computer to use this against player
-    computerElements.push(e.name);
-  });
+    reproduceSound("./sounds/cast.mp3");
+    // Get computer elements selected
+    let computerElements = [];
+    computerPlay(
+      elements,
+      localStorage.getItem("difficulty"),
+      playerReaction
+    ).forEach((e, i) => {
+      // Define images and styles to elements according to generated reaction
+      submenusIconsComputer[i].src = e.img;
+      setClass(containerSelectionsComputer[i], e.name);
+      // Save names of each element selected by computer to use this against player
+      computerElements.push(e.name);
+    });
 
-  // Get computer reaction according to array generated before
-  let computerReaction = getReaction(...computerElements, reactions);
-  // Again define styles and images, but in this case to reaction, not to elements
-  document.getElementById("result-reaction-computer").src =
-    computerReaction.getImg;
-  setClass(
-    document.getElementById("result-reaction-computer").parentElement,
-    computerReaction.getName
-  );
+    // Get computer reaction according to array generated before
+    let computerReaction = getReaction(...computerElements, reactions);
+    // Again define styles and images, but in this case to reaction, not to elements
+    document.getElementById("result-reaction-computer").src =
+      computerReaction.getImg;
+    setClass(
+      document.getElementById("result-reaction-computer").parentElement,
+      computerReaction.getName
+    );
 
-  // When at least one round has started percentages container will be displayed
-  Array.from(document.getElementsByClassName("minus-percentage")).forEach(
-    (e) => {
-      e.classList.remove("hidden");
-    }
-  );
+    // When at least one round has started percentages container will be displayed
+    Array.from(document.getElementsByClassName("minus-percentage")).forEach(
+      (e) => {
+        e.classList.remove("hidden");
+      }
+    );
 
-  playRound(checkBox, lives, playerReaction, computerReaction);
+    playRound(checkBox, lives, playerReaction, computerReaction);
 });
 
 document.getElementById("reset").addEventListener("click", () => {
