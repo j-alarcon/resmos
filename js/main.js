@@ -261,8 +261,8 @@ function endGame(lives, selections) {
   for (let i = 0; i < lives.length; i++) {
     if (lives[i].innerText < 1) {
       lives[0].innerText < 1
-        ? reproduceSound("./sounds/victory.mp3")
-        : reproduceSound("./sounds/defeat.mp3");
+        ? reproduceSound("./audio/victory.mp3")
+        : reproduceSound("./audio/defeat.mp3");
       disableItems(
         selections[0],
         selections[1],
@@ -309,7 +309,7 @@ function selectItem(
   containerSelected
 ) {
   item.addEventListener("click", () => {
-    reproduceSound("./sounds/select.mp3");
+    reproduceSound("./audio/select.mp3");
 
     // Change image and attribute according to selected element
     selectedSubmenuIcon.src = elements.find(
@@ -490,7 +490,7 @@ difficulties.forEach((e) => {
 Array.from(checkBox).forEach((e, i) => {
   e.addEventListener("click", () => {
     showHideMenu(e, submenus[i]);
-    reproduceSound("./sounds/pop.mp3");
+    reproduceSound("./audio/pop.mp3");
   });
 });
 
@@ -530,7 +530,7 @@ document.getElementById("cast-reaction").addEventListener("click", () => {
     reactions
   );
 
-    reproduceSound("./sounds/cast.mp3");
+    reproduceSound("./audio/cast.mp3");
     // Get computer elements selected
     let computerElements = [];
     computerPlay(
