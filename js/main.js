@@ -4,6 +4,7 @@ import {
   names,
   generateRandomName,
   generateRandomNumber,
+  activateItems,
   disableItems,
   reproduceSound,
   setClass,
@@ -66,11 +67,6 @@ let lives = [
 ];
 
 let percentageLife = document.getElementsByClassName("lost-life");
-
-let tablePanels = [
-  document.getElementById("table-player"),
-  document.getElementById("table-computer"),
-];
 
 let elements = [
   { name: "fire", img: "./img/icons/fire.png" },
@@ -157,6 +153,8 @@ let reactions = [
     [{ name: "hurricane", percentage: 15 }]
   ),
 ];
+
+let lastReactions = [null, null];
 
 function getReaction(element1, element2, reactions) {
   for (let i = 0; i < reactions.length; i++) {
@@ -294,12 +292,6 @@ function calculatePercentage(primaryReaction, secondaryReaction) {
   }
 }
 
-function activateItems(...items) {
-  for (let i = 0; i < items.length; i++) {
-    items[i].removeAttribute("disabled");
-  }
-}
-
 function selectItem(
   item,
   selectedSubmenuIcon,
@@ -343,8 +335,6 @@ function selectItem(
 
     // If the first element is selected, the reaction icon will lose his sepia filter and locked items will be activated
     if (containerSelectionsPlayer[1].getAttribute("data-value")) {
-      activateItems(checkBox[1], document.getElementById("cast-reaction"));
-      document.getElementById("cast-reaction").classList.add("no-filter");
 
       // We generate a reaction and try to show it in his panel
       let reaction = getReaction(
@@ -353,10 +343,24 @@ function selectItem(
         reactions
       );
       document.getElementById("result-reaction-player").src = reaction.getImg;
-      setClass(
-        document.getElementById("result-reaction-player").parentElement,
-        reaction.getName
-      );
+
+      // Activate or deactivate items if the new reaction is different or equal than previous one
+      if (reaction != lastReactions[0]) {
+        // This will control if both checkboxes are full
+        activateItems(checkBox[1], document.getElementById("cast-reaction"));
+        document.getElementById("cast-reaction").classList.add("no-filter");
+        setClass(
+          document.getElementById("result-reaction-player").parentElement,
+          reaction.getName
+        );
+      } else {
+        document.getElementById("cast-reaction").classList.remove("no-filter");
+        disableItems(document.getElementById("cast-reaction"));
+        setClass(
+          document.getElementById("result-reaction-player").parentElement,
+          "grayscale"
+        );
+      }
     }
   });
 }
@@ -529,39 +533,46 @@ document.getElementById("cast-reaction").addEventListener("click", () => {
     reactions
   );
 
-    reproduceSound("./audio/cast.mp3");
-    // Get computer elements selected
-    let computerElements = [];
-    computerPlay(
-      elements,
-      localStorage.getItem("difficulty"),
-      playerReaction
-    ).forEach((e, i) => {
-      // Define images and styles to elements according to generated reaction
-      submenusIconsComputer[i].src = e.img;
-      setClass(containerSelectionsComputer[i], e.name);
-      // Save names of each element selected by computer to use this against player
-      computerElements.push(e.name);
-    });
+  // Save last reaction of player
+  lastReactions[0] = playerReaction;
 
-    // Get computer reaction according to array generated before
-    let computerReaction = getReaction(...computerElements, reactions);
-    // Again define styles and images, but in this case to reaction, not to elements
-    document.getElementById("result-reaction-computer").src =
-      computerReaction.getImg;
-    setClass(
-      document.getElementById("result-reaction-computer").parentElement,
-      computerReaction.getName
-    );
+  reproduceSound("./audio/cast.mp3");
+  // Get computer elements selected
+  let computerElements = [];
+  computerPlay(
+    elements,
+    localStorage.getItem("difficulty"),
+    playerReaction
+  ).forEach((e, i) => {
+    // Define images and styles to elements according to generated reaction
+    submenusIconsComputer[i].src = e.img;
+    setClass(containerSelectionsComputer[i], e.name);
+    // Save names of each element selected by computer to use this against player
+    computerElements.push(e.name);
+  });
 
-    // When at least one round has started percentages container will be displayed
-    Array.from(document.getElementsByClassName("minus-percentage")).forEach(
-      (e) => {
-        e.classList.remove("hidden");
-      }
-    );
+  // Get computer reaction according to array generated before
+  let computerReaction = getReaction(...computerElements, reactions);
+  // Again define styles and images, but in this case to reaction, not to elements
+  document.getElementById("result-reaction-computer").src =
+    computerReaction.getImg;
+  setClass(
+    document.getElementById("result-reaction-computer").parentElement,
+    computerReaction.getName
+  );
 
-    playRound(checkBox, lives, playerReaction, computerReaction);
+  // When at least one round has started percentages container will be displayed
+  Array.from(document.getElementsByClassName("minus-percentage")).forEach(
+    (e) => {
+      e.classList.remove("hidden");
+    }
+  );
+
+  playRound(checkBox, lives, playerReaction, computerReaction);
+
+  // Disable button after round to avoid user to spam the same reaction
+  document.getElementById("cast-reaction").classList.remove("no-filter");
+  disableItems(document.getElementById("cast-reaction"));
 });
 
 document.getElementById("reset").addEventListener("click", () => {

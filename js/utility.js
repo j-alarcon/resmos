@@ -98,6 +98,12 @@ export function reproduceSound(fileName) {
   new Audio(fileName).play();
 }
 
+export function activateItems(...items) {
+  for (let i = 0; i < items.length; i++) {
+    items[i].removeAttribute("disabled");
+  }
+}
+
 export function disableItems(...items) {
   for (let i = 0; i < items.length; i++) {
     items[i].setAttribute("disabled", "disabled");
