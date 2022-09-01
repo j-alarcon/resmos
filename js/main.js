@@ -67,6 +67,8 @@ let lives = [
 
 let percentageLife = document.getElementsByClassName("lost-life");
 
+let tablePanels = [document.getElementById("table-player"), document.getElementById("table-computer")];
+
 let elements = [
   { name: "fire", img: "./img/icons/fire.png" },
   { name: "ice", img: "./img/icons/ice.png" },
