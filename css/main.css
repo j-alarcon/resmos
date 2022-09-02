@@ -360,12 +360,12 @@ body {
 }
 
 .footer-container {
-  width: 7.3vh;
-  height: 7.3vh;
+  width: 7vh;
+  height: 7vh;
 }
 
 .penguin {
-  margin: 0.8vh 0 0 1.1vh;
+  margin: 0.9vh 0 0 1.1vh;
   width: 5vh;
 }
 
@@ -378,9 +378,9 @@ body {
 }
 
 .data-sign {
-  margin: 0.2vh 0 0 1.5vh;
+  margin: 0.4vh 0 0 1.5vh;
 }
 
 .footer-container {
-  font-size: 1.65vh;
+  font-size: 1.6vh;
 }
