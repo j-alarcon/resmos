@@ -239,13 +239,14 @@ function computerPlay(elements, difficulty, playerReaction) {
 
     // There is a 40% that computer will know player's reaction and send a weaknesses
     case "hard":
-      if (Math.round(Math.random() * 10 > 8)) {
+      // There is a 60% that computer will generate a random reaction
+      if (Math.round(Math.random() * 10 >= 6)) {
         console.log("entrada 1");
         // We will generate a reaction until is a new one
         values = filterReaction([values, elements]);
       } else {
         for (let i = 0; i < 2; i++) {
-          console.log
+          console.log;
           values.push(
             elements.find(
               (z) =>
