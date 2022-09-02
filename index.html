@@ -50,9 +50,10 @@
     <link rel="stylesheet" href="./css/position.css" />
     <link rel="stylesheet" href="./css/main.css" />
     <link rel="stylesheet" href="./css/animation.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
     <script type="module" src="./js/main.js" defer></script>
   </head>
-  <body class="flex align-center max-height background-space overflow-hidden">
+  <body class="flex direction-column align-center max-height background-space overflow-hidden">
     <main class="flex direction-column max-width max-height relative">
       <div
         class="difficulties absolute flex justify-space-around text-white max-width"
@@ -286,15 +287,31 @@
         </div>
       </div>
     </main>
-    <footer class="footer flex justify-start align-center absolute overflow-hidden pointer background-black">
-      <a href="https://github.com/j-alarcon" target="_blank">
-        <img
-          class="penguin"
-          src="./img/logos/penguin_white.png"
-          alt="White penguin in a suit"
-        />
-      </a>
-      <div class="data-sign text-white bold">
+    <footer class="max-width">
+      <div
+        class="footer-container flex justify-start align-center absolute overflow-hidden pointer background-black"
+      >
+        <a href="https://github.com/j-alarcon" target="_blank">
+          <img
+            class="penguin"
+            src="./img/logos/penguin_white.png"
+            alt="White penguin in a suit"
+          />
+        </a>
+        <div class="data-sign text-white bold">
+          <p>Version 1.1</p>
+          <p>09/02/2022</p>
+        </div>
+      </div>
+      <div
+        class="flex justify-start align-center absolute overflow-hidden pointer background-black"
+      >
+        <div class="data-sign text-white bold">
+          <p>Version 1.1</p>
+          <p>09/02/2022</p>
+        </div>
+      </div>
+      <div class="data-sign-r absolute text-white background-black justify-space-around bold hide">
         <p>Version 1.1</p>
         <p>09/02/2022</p>
       </div>
