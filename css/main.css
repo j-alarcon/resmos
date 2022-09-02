@@ -223,7 +223,7 @@ body {
 
 .icon-select {
   height: 3.8vh;
- filter: drop-shadow(0 0 .2vh #000000);
+  filter: drop-shadow(0 0 0.2vh #000000);
 }
 
 .icon-menu {
@@ -292,7 +292,7 @@ body {
   height: 2.8vh;
   padding: 1vh 0.5vh 1vh 0;
   margin: 10.6vh 0 0 0;
-  font-size: 1.8vh;
+  font-size: 1.9vh;
 }
 
 .icon-table {
@@ -382,5 +382,5 @@ body {
 }
 
 .footer-container {
-  font-size: 1.6vh;
+  font-size: 1.9vh;
 }
