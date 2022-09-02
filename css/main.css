@@ -4,6 +4,10 @@
   width: 3.8vh;
 }
 
+.minus-percentage {
+  font-size: 1.7vh;
+}
+
 .minus-percentage,
 .selections {
   border-bottom-right-radius: 2vh;
@@ -40,7 +44,7 @@ img[src=""] {
 }
 
 .background-black {
-  background-color: black;
+  background-color: #292929ff;
 }
 
 .background-space {
@@ -106,12 +110,6 @@ img[src=""] {
 
 .outline-space {
   outline-color: #37425b;
-}
-
-.item-table {
-  width: 10vh;
-  height: 10vh;
-  border: 0.6vh solid black;
 }
 
 .outline-grey {
@@ -210,18 +208,27 @@ body {
   font-family: "Poppins";
 }
 
+.difficulties {
+  height: 4vh;
+  font-size: 1.9vh;
+}
+
+.difficulty {
+  width: 33.34%;
+}
+
+.difficulty:hover {
+  opacity: 0.9;
+}
+
 .icon-select {
   height: 3.8vh;
-  filter: drop-shadow(0 0 .4vh #000000);
+  filter: drop-shadow(0 0 0.4vh #000000);
 }
 
 .icon-menu {
   width: 3.5vh;
   height: 3.5vh;
-}
-
-.icon-table {
-  width: 9vh;
 }
 
 .player-ui {
@@ -261,9 +268,7 @@ body {
 
 .minus-percentage {
   padding: 0.6vh;
-  font-size: 1.7vh;
-  margin-left: 3vh;
-  margin-top: 2vh;
+  margin: 2vh 0 0 3vh;
 }
 
 #computer-photo {
@@ -288,6 +293,21 @@ body {
   padding: 1vh 0.5vh 1vh 0;
   margin: 10.6vh 0 0 0;
   font-size: 1.8vh;
+}
+
+.icon-table {
+  width: 9vh;
+}
+
+.table {
+  height: 28vh;
+  margin-top: 19vh;
+}
+
+.item-table {
+  width: 10vh;
+  height: 10vh;
+  border: 0.6vh solid black;
 }
 
 .selections {
@@ -339,20 +359,28 @@ body {
   border: 0.7vh solid #e25822;
 }
 
-.table {
-  height: 28vh;
-  margin-top: 19vh;
+.footer {
+  width: 7.7vh;
+  height: 7vh;
 }
 
-.difficulties {
-  height: 4vh;
-  font-size: 1.9vh;
+.penguin {
+  margin: 0.8vh 0 0 1.1vh;
+  width: 5.5vh;
 }
 
-.difficulty {
-  width: 33.34%;
+.penguin:hover {
+  opacity: 0.8;
 }
 
-.difficulty:hover {
-  opacity: 0.9;
+.footer:hover {
+  width: 19vh;
+}
+
+.data-sign {
+  margin: 0.4vh 0 0 1.5vh;
+}
+
+.footer {
+  font-size: 1.65vh;
 }

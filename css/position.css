@@ -32,6 +32,10 @@
   justify-content: center;
 }
 
+.justify-start {
+  justify-content: flex-start;
+}
+
 .justify-end {
   justify-content: flex-end;
 }
@@ -70,4 +74,9 @@
 
 .container-hp {
   right: 13.2vh;
+}
+
+.footer {
+  bottom: 0;
+  right: 0;
 }
