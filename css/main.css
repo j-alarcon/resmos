@@ -223,7 +223,7 @@ body {
 
 .icon-select {
   height: 3.8vh;
-  filter: drop-shadow(0 0 0.4vh #000000);
+ filter: drop-shadow(0 0 .2vh #000000);
 }
 
 .icon-menu {
@@ -365,7 +365,7 @@ body {
 }
 
 .penguin {
-  margin: 0.9vh 0 0 1.1vh;
+  margin: 0.8vh 0 0 1vh;
   width: 5vh;
 }
 
