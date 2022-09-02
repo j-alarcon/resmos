@@ -48,7 +48,7 @@ img[src=""] {
 }
 
 .background-space {
-  background: url("../img/background/space.png") repeat-x 50vh/190vh;
+  background: url("../img/background/space.webp") repeat-x 50vh/190vh;
   background-color: #37425b;
 }
 
@@ -73,7 +73,7 @@ img[src=""] {
 }
 
 .cast-reaction {
-  background: url("../img/logos/resmos.png") no-repeat center/8vh;
+  background: url("../img/logos/resmos.webp") no-repeat center/8vh;
 }
 
 .background-white {
@@ -377,7 +377,7 @@ body {
   width: 19vh;
 }
 
-.footer-container:hover .data-sign{
+.footer-container:hover .data-sign {
   display: block;
 }
 
