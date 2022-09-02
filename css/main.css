@@ -360,13 +360,13 @@ body {
 }
 
 .footer {
-  width: 7.7vh;
+  width: 7.3vh;
   height: 7vh;
 }
 
 .penguin {
   margin: 0.8vh 0 0 1.1vh;
-  width: 5.5vh;
+  width: 5vh;
 }
 
 .penguin:hover {
@@ -378,7 +378,7 @@ body {
 }
 
 .data-sign {
-  margin: 0.4vh 0 0 1.5vh;
+  margin: .2vh 0 0 1.5vh;
 }
 
 .footer {
