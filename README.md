@@ -1,4 +1,4 @@
-<strong>This PWA has been developed using HTML, CSS and JavaScript</strong>, in order to practice and develop my skills in these languages. All the portraits used are created by <a href="https://openai.com/dall-e-2/">DALL-E 2</a>. It has offline functionality so you are able to use it without an internet connection, but keep in mind that only works properly with Google Chrome. 
+<strong>This PWA has been developed using HTML, CSS and JavaScript</strong>, in order to practice and develop my skills in these languages. All the portraits used are created by <a href="https://openai.com/dall-e-2/">DALL-E 2</a> and it has offline functionality so you are able to use it without an internet connection, but keep in mind that only works properly with Google Chrome. 
 
 Have you ever played rock-paper-scissors before? Are you tired of picking always the same three options? This is probably your game. Let's react!
 
