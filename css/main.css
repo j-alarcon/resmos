@@ -48,7 +48,7 @@ img[src=""] {
 }
 
 .background-space {
-  background: url("../img/background/space.webp") repeat-x 50vh/140vh;
+  background: url("../img/background/space.webp") center;
   background-color: #37425b;
 }
 
@@ -166,6 +166,10 @@ img[src=""] {
 
 .active {
   animation: blinkColors 13s linear infinite;
+}
+
+.infinite{
+  animation: infiniteBackground 30s linear infinite;
 }
 
 .text-white {
