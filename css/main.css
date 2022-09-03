@@ -236,19 +236,21 @@ body {
 }
 
 .player-ui {
+  height: 40vh;
   background: url("./../img/background/panel.svg") repeat-x center;
-  background-size: 233vh 200vh;
+  background-size: 230vh 150vh;
 }
 
 .players-container {
-  width: 19vh;
-  height: 27vh;
-  margin-top: 15vh;
+  height: 30vh;
 }
 
-.first-ui{
-  margin-top: 3.5vh;
+#player-container {
   margin-bottom: 1.5vh;
+}
+
+#computer-container {
+  margin-top: 13.5vh;
 }
 
 .life {

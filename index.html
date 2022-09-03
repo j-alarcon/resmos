@@ -54,9 +54,11 @@
     <script type="module" src="./js/main.js" defer></script>
   </head>
   <body
-    class="flex direction-column  max-height background-space infinite"
+    class="flex direction-column max-height background-space infinite overflow-hidden"
   >
-    <main class="flex direction-column justify-space-between max-width max-height">
+    <main
+      class="flex direction-column justify-space-between max-width max-height overflow-hidden"
+    >
       <div
         class="difficulties absolute flex justify-space-around text-white max-width"
       >
@@ -82,6 +84,7 @@
       <div class="player-ui reverse flex justify-center align-center max-width">
         <div
           class="players-container relative reverse flex direction-column justify-center align-center"
+          id="computer-container"
         >
           <div class="relative">
             <div
@@ -152,6 +155,7 @@
       <div class="player-ui flex justify-center align-center max-width">
         <div
           class="players-container relative first-ui flex direction-column justify-center align-center"
+          id="player-container"
         >
           <div class="relative">
             <div
