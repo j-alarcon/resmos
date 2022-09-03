@@ -45,6 +45,10 @@
   justify-content: space-around;
 }
 
+.justify-space-between{
+  justify-content: space-between;
+}
+
 .absolute {
   position: absolute;
 }
@@ -65,10 +69,6 @@
   bottom: 4vh;
 }
 
-.first-ui {
-  top: 1.2vh;
-}
-
 #cast-reaction {
   bottom: 7vh;
 }
@@ -80,4 +80,8 @@
 .footer-container {
   bottom: 0;
   right: 0;
+}
+
+.first-ui{
+  bottom: 0;
 }
