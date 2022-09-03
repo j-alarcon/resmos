@@ -16,15 +16,15 @@ if (!self.define) {
       })
   );
   self.define = (s, r) => {
-    const a =
+    const o =
       e ||
       ("document" in self ? document.currentScript.src : "") ||
       location.href;
-    if (i[a]) return;
-    let o = {};
-    const n = (e) => c(e, a),
-      f = { module: { uri: a }, exports: o, require: n };
-    i[a] = Promise.all(s.map((e) => f[e] || n(e))).then((e) => (r(...e), o));
+    if (i[o]) return;
+    let a = {};
+    const n = (e) => c(e, o),
+      f = { module: { uri: o }, exports: a, require: n };
+    i[o] = Promise.all(s.map((e) => f[e] || n(e))).then((e) => (r(...e), a));
   };
 }
 define(["./workbox-7e688afb"], function (e) {
@@ -50,15 +50,19 @@ define(["./workbox-7e688afb"], function (e) {
         },
         {
           url: "css/animation.css",
-          revision: "352fc1381fe030105407204bf1bee148",
+          revision: "da3bb08a343302f5110d991f4f5c031a",
         },
         { url: "css/fonts.css", revision: "b5268186be8854158959837cae54e53f" },
-        { url: "css/main.css", revision: "da12535adb3947b9b44707d470495433" },
+        { url: "css/main.css", revision: "93b37254b3a3a94ccf96d7f89423bc50" },
         {
           url: "css/position.css",
-          revision: "98e7f5a92464615ae126120772efc716",
+          revision: "62d06568ed0a85fa0f072c9e8d53019e",
         },
         { url: "css/reset.css", revision: "8c0490f82f0b190e8b332caa546306b0" },
+        {
+          url: "css/responsive.css",
+          revision: "6b1257c650c3ba14c3396cd3dcd4524e",
+        },
         {
           url: "fonts/poppins.ttf",
           revision: "bf59c687bc6d3a70204d3944082c5cc0",
@@ -66,107 +70,111 @@ define(["./workbox-7e688afb"], function (e) {
         { url: "FUNDING.yml", revision: "d71ac27283ed800598bb8fb4b731ff6c" },
         {
           url: "img/background/panel.svg",
-          revision: "b8e948e2d70b983465347ac70bcdae6e",
+          revision: "eff6597e77aa7cfc593ddfc8ce045415",
         },
         {
-          url: "img/background/space.png",
-          revision: "41fbd897c69dfdfade46fa7bac949426",
+          url: "img/background/space.webp",
+          revision: "02baa268ba111234759438fbad0fe425",
         },
         {
           url: "img/favicon.webp",
-          revision: "3f60ce811b5f0e8ae0d06f8deb4f3ef2",
+          revision: "b965769ee245f3da0358f921b59d2537",
         },
         {
-          url: "img/icons/blizzard.png",
-          revision: "5ac70236abd8e63ca8a04631af37e24b",
+          url: "img/icons/blizzard.webp",
+          revision: "32b4c5f5fa230c6bef9c904eab7b5104",
         },
         {
-          url: "img/icons/explosion.png",
-          revision: "2cc7666cb4b9305a3eab129e8dceaa1e",
+          url: "img/icons/explosion.webp",
+          revision: "4cc1e5e8155969aba52a4ca95a9acf44",
         },
         {
-          url: "img/icons/fire.png",
-          revision: "3ef57e8487694c606207cc42c7615932",
+          url: "img/icons/fire.webp",
+          revision: "e44c6d8de6cdac6b26d2f9c773071df9",
         },
         {
-          url: "img/icons/heat_wave.png",
-          revision: "fd903e734a339d809232a4a91c4cabcd",
+          url: "img/icons/heat_wave.webp",
+          revision: "65fb5f4032d355ef6fede4c0cc8cb00a",
         },
         {
-          url: "img/icons/hurricane.png",
-          revision: "8e2866547932031ae55a5199a7f772aa",
+          url: "img/icons/hurricane.webp",
+          revision: "9b06c521966bbd46f7aaed06a6b78440",
         },
         {
-          url: "img/icons/ice.png",
-          revision: "a07cb5b869ca3bbde14c655e9ff824c5",
+          url: "img/icons/ice.webp",
+          revision: "b4d852a0ed619c8b2c0ebe4f9383ffa4",
         },
         {
-          url: "img/icons/machine.png",
-          revision: "7eee4689b2c04732fbacc36f57471d12",
+          url: "img/icons/machine.webp",
+          revision: "76af78991a8160a0a8812b06669d6530",
         },
         {
           url: "img/icons/reset.svg",
           revision: "d98dceb4eefcb90839dea47e55fc3ea6",
         },
         {
-          url: "img/icons/snowbot.png",
-          revision: "ea8877c17f4219f8a2477d1cb5a6b030",
+          url: "img/icons/snowbot.webp",
+          revision: "3bf01cee06029ee4f0cac734e0f5ff96",
         },
         {
-          url: "img/icons/water.png",
-          revision: "4359cea8839a8743ebdbe0c4857b6366",
+          url: "img/icons/water.webp",
+          revision: "34e37b9a5486a6360ae1330160731196",
         },
         {
-          url: "img/icons/wind.png",
-          revision: "362a4c1185f4b2cc0de71738c714ad05",
+          url: "img/icons/wind.webp",
+          revision: "02153f00ce5833c0680685a50278c2e3",
         },
         {
-          url: "img/logos/resmos.png",
-          revision: "d31f9a6c6fad37ed31024c2d505d7c29",
+          url: "img/logos/penguin_white.webp",
+          revision: "055e603b725c349e0cd46c0d4cc1ee14",
+        },
+        {
+          url: "img/logos/resmos.webp",
+          revision: "670aa3e9d509b57a27e9758497c028c7",
         },
         {
           url: "img/portraits/1.webp",
-          revision: "3e2b370aca72bf29dadd5ab809794fa4",
+          revision: "131c9820dfc4cdabf5b69747c6305641",
         },
         {
           url: "img/portraits/10.webp",
-          revision: "c45d14b1d9f6d96e7855d001408b9af5",
+          revision: "5a61bb5192ce6ef37bddd0b8e139a869",
         },
         {
           url: "img/portraits/2.webp",
-          revision: "d1b11a792636456669e14ea6c3e9676c",
+          revision: "d289459ff62df9ff40416e486d873759",
         },
         {
           url: "img/portraits/3.webp",
-          revision: "c92029c98cb93c5edda1d3f8aada148f",
+          revision: "feceebc3027ceb6d633639d1d2ac8c90",
         },
         {
           url: "img/portraits/4.webp",
-          revision: "4e4a75fc17f2fbce52c13f37e5a0c383",
+          revision: "85cf01b91e449f75fb20fbd74d0b0229",
         },
         {
           url: "img/portraits/5.webp",
-          revision: "78b0f87400e3afa9bd9d4238a5185208",
+          revision: "7a720b80e36f48fe7ec251415b569f8e",
         },
         {
           url: "img/portraits/6.webp",
-          revision: "4ff2603c74a8e30c74ce5ab70559742c",
+          revision: "bbc775b5fbb94c46217aab0fde30e0c1",
         },
         {
           url: "img/portraits/7.webp",
-          revision: "55f136a2fbad8c240aca4468a2b3f229",
+          revision: "500aed578d9cc594839e3d82d222f8cf",
         },
         {
           url: "img/portraits/8.webp",
-          revision: "8beb21502971970b0436fd0cdf73c671",
+          revision: "7b2fc25879a1f35a64da86f5070cb0b5",
         },
         {
           url: "img/portraits/9.webp",
-          revision: "bdfe1a430c001076e5ac78bf7cd41ac8",
+          revision: "1cb434027e8185c146f08e9271dae401",
         },
         {
           url: "img/portraits/default.webp",
-          revision: "066ce70ecfba12b68b455d4b24a1bd9d",
+          revision: "440e3a34c95907f640039c5b549df85d",
         },
         {
           url: "img/pwa/badges/android_en.png",
@@ -186,7 +194,7 @@ define(["./workbox-7e688afb"], function (e) {
         },
         {
           url: "img/pwa/icons/resmos_icon_144x144.png",
-          revision: "028a0d21beeec777468e3377886ed2c4",
+          revision: "b9e421e55c048f4ba96143c486b421a7",
         },
         {
           url: "img/pwa/icons/resmos_icon_192x192.png",
@@ -224,40 +232,16 @@ define(["./workbox-7e688afb"], function (e) {
           url: "img/pwa/icons/resmos_icon_96x96.png",
           revision: "384df9efe6fb9a82f9e90ab890365de3",
         },
-        {
-          url: "img/pwa/screenshots/battle_computer.webp",
-          revision: "15aeb8e61747ff2f89d1bd2468709105",
-        },
-        {
-          url: "img/pwa/screenshots/battle_mobile.webp",
-          revision: "0b552b9fb9213af4ec61387780e05631",
-        },
-        {
-          url: "img/pwa/screenshots/finish_computer.webp",
-          revision: "be03dc73f90e13cc8efa41ecfaa01294",
-        },
-        {
-          url: "img/pwa/screenshots/finish_mobile.webp",
-          revision: "409babc8e37271a0a4cf51d9c0b501b5",
-        },
-        {
-          url: "img/pwa/screenshots/start_computer.webp",
-          revision: "1184590905af4e9bed1beea5adf85f92",
-        },
-        {
-          url: "img/pwa/screenshots/start_mobile.webp",
-          revision: "0f3228908f5cc6bdf066ed2722fc080d",
-        },
-        { url: "index.html", revision: "181c2d3faf004e0a55732e40afca33f6" },
-        { url: "js/main.js", revision: "0b4ad4f3178f4b624b0b183275fd98ce" },
+        { url: "index.html", revision: "ef0b063f0909d964b8b4bcc73aa82066" },
+        { url: "js/main.js", revision: "9dc33cb5a0edc1f21957273b4ae7c03b" },
         { url: "js/model.js", revision: "3c0b41e78ca8c0f1ea590f683c09b4fc" },
-        { url: "js/utility.js", revision: "c7f1fcaaae53eba9f795b6ee9397f240" },
+        { url: "js/utility.js", revision: "122442a7b25462fd9ba0655b93c34866" },
         {
           url: "json/languages.js",
-          revision: "d411e79361e51835a1d23adb79cb6d7e",
+          revision: "cce1a456c7c3981bac4a3963d27ded90",
         },
-        { url: "manifest.json", revision: "52fda570b21fb14843f21fcb42b5b050" },
-        { url: "README.md", revision: "96aec09b56bcf4d61d7dac288bc4f342" },
+        { url: "manifest.json", revision: "a2373559313b9cdf3d132afb93dd06d7" },
+        { url: "README.md", revision: "9efb4866f120f9144d9e6bce6ecf7c36" },
       ],
       { ignoreURLParametersMatching: [/^utm_/, /^fbclid$/] }
     );

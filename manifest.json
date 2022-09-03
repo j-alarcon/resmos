@@ -9,50 +9,6 @@
   "version": "1.1",
   "iarc_rating_id": "a757ab02-a453-4066-baf4-00547cc0da88",
   "categories": ["games", "entertainment", "strategy"],
-  "screenshots": [
-    {
-      "src": "./img/pwa/screenshots/start_computer.webp",
-      "sizes": "1920x998",
-      "type": "image/webp",
-      "platform": "wide",
-      "label": "Start of application"
-    },
-    {
-      "src": "./img/pwa/screenshots/battle_computer.webp",
-      "sizes": "1920x998",
-      "type": "image/webp",
-      "platform": "wide",
-      "label": "Battle between the two players"
-    },
-    {
-      "src": "./img/pwa/screenshots/finish_computer.webp",
-      "sizes": "1920x998",
-      "type": "image/jpg",
-      "platform": "wide",
-      "label": "Finish of the match"
-    },
-    {
-      "src": "./img/pwa/screenshots/start_mobile.webp",
-      "sizes": "720x1435",
-      "type": "image/webp",
-      "platform": "narrow",
-      "label": "Start of application"
-    },
-    {
-      "src": "./img/pwa/screenshots/battle_mobile.webp",
-      "sizes": "720x1435",
-      "type": "image/webp",
-      "platform": "narrow",
-      "label": "Battle between the two players"
-    },
-    {
-      "src": "./img/pwa/screenshots/finish_mobile.webp",
-      "sizes": "720x1435",
-      "type": "image/webp",
-      "platform": "narrow",
-      "label": "Finish of the match"
-    }
-  ],
   "lang": "en",
   "start_url": "./",
   "scope": "./",
@@ -64,37 +20,37 @@
     {
       "src": "./img/pwa/icons/resmos_icon_32x32.png",
       "sizes": "32x32",
-      "type": "image/webp",
+      "type": "image/png",
       "purpose": "maskable"
     },
     {
       "src": "./img/pwa/icons/resmos_icon_48x48.png",
       "sizes": "48x48",
-      "type": "image/webp",
+      "type": "image/png",
       "purpose": "maskable"
     },
     {
       "src": "./img/pwa/icons/resmos_icon_64x64.png",
       "sizes": "64x64",
-      "type": "image/webp",
+      "type": "image/png",
       "purpose": "maskable"
     },
     {
       "src": "./img/pwa/icons/resmos_icon_72x72.png",
       "sizes": "72x72",
-      "type": "image/webp",
+      "type": "image/png",
       "purpose": "maskable"
     },
     {
       "src": "./img/pwa/icons/resmos_icon_96x96.png",
       "sizes": "96x96",
-      "type": "image/webp",
+      "type": "image/png",
       "purpose": "maskable"
     },
     {
       "src": "./img/pwa/icons/resmos_icon_128x128.png",
       "sizes": "128x128",
-      "type": "image/webp",
+      "type": "image/png",
       "purpose": "maskable"
     },
     {
@@ -106,13 +62,13 @@
     {
       "src": "./img/pwa/icons/resmos_icon_192x192.png",
       "sizes": "192x192",
-      "type": "image/webp",
+      "type": "image/png",
       "purpose": "maskable"
     },
     {
       "src": "./img/pwa/icons/resmos_icon_256x256.png",
       "sizes": "256x256",
-      "type": "image/webp",
+      "type": "image/png",
       "purpose": "maskable"
     },
     {
