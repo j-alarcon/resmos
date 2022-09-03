@@ -1,4 +1,4 @@
-<strong>This PWA has been developed using HTML, CSS and JavaScript</strong>, in order to practice and develop my skills in these languages. It has offline functionality so you are able to use it without an internet connection, but keep in mind that only works properly with Google Chrome.
+<strong>This PWA has been developed using HTML, CSS and JavaScript</strong>, in order to practice and develop my skills in these languages. All the portraits used are created by <a href="https://openai.com/dall-e-2/">DALL-E 2</a>. It has offline functionality so you are able to use it without an internet connection, but keep in mind that only works properly with Google Chrome. 
 
 Have you ever played rock-paper-scissors before? Are you tired of picking always the same three options? This is probably your game. Let's react!
 
@@ -15,7 +15,7 @@ In order to fight you need to combine four main elements in pairs: ❄️ (Ice),
     <li>⚙️ + 🍃 = 🌀 (Hurricane)</li>
 </ul>
 
-They all have weaknesses to other reactions and you can't pick the same reaction consecutively, so you have to be careful with your elections in each turn. Anyway, your wise choices aren't going to save you, you'll receive damage in any turn, but this will be higher or lower in the base of the weaknesses of that reaction. 
+They all have weaknesses to other reactions and you can't pick the same one consecutively, so you have to be careful with your elections in each turn. Anyway, your wise choices aren't going to save you, you'll receive damage in any turn, but this will be higher or lower in the base of the weaknesses of that reaction. 
 
 You can check all advantages and weaknesses, as well as the percentages of life you would lose or cause in this table:
 
@@ -110,5 +110,4 @@ There are two ways to see my work:
         </ol>
     </li>
 </ul>
-<strong>License:</strong> You are not allowed to modify, use my code or resources for your own projects without my consent, even if it's everything is public.
-If you do not follow the preceding, I might take legal actions against you.
+<strong>License:</strong> You are not allowed to modify, use my code or resources for your own projects without my consent, even if it's everything is public. If you do not follow the preceding, I might take legal actions against you.
