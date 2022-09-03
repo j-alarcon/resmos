@@ -53,10 +53,10 @@ define(["./workbox-7e688afb"], function (e) {
           revision: "da3bb08a343302f5110d991f4f5c031a",
         },
         { url: "css/fonts.css", revision: "b5268186be8854158959837cae54e53f" },
-        { url: "css/main.css", revision: "93b37254b3a3a94ccf96d7f89423bc50" },
+        { url: "css/main.css", revision: "bb7b6a687f4d9d870c2802a2610fa706" },
         {
           url: "css/position.css",
-          revision: "62d06568ed0a85fa0f072c9e8d53019e",
+          revision: "0cb28daefb44f27e91095e78e8ae4442",
         },
         { url: "css/reset.css", revision: "8c0490f82f0b190e8b332caa546306b0" },
         {
@@ -232,7 +232,7 @@ define(["./workbox-7e688afb"], function (e) {
           url: "img/pwa/icons/resmos_icon_96x96.png",
           revision: "384df9efe6fb9a82f9e90ab890365de3",
         },
-        { url: "index.html", revision: "ef0b063f0909d964b8b4bcc73aa82066" },
+        { url: "index.html", revision: "46a812daf56327e493d42520301bd3c3" },
         { url: "js/main.js", revision: "9dc33cb5a0edc1f21957273b4ae7c03b" },
         { url: "js/model.js", revision: "3c0b41e78ca8c0f1ea590f683c09b4fc" },
         { url: "js/utility.js", revision: "122442a7b25462fd9ba0655b93c34866" },
