@@ -236,7 +236,7 @@ body {
 }
 
 .player-ui {
-  height: 40vh;
+  height: 40%;
   background: url("./../img/background/panel.svg") repeat-x center;
   background-size: 230vh 150vh;
 }
@@ -303,6 +303,10 @@ body {
 
 .icon-table {
   width: 9vh;
+}
+
+.middle {
+  height: 20%;
 }
 
 .table {

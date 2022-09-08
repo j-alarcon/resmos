@@ -19,6 +19,9 @@ if ("serviceWorker" in navigator) {
   });
 }
 
+// Update only when new version is finished
+const currentVersion = 1.2;
+
 // All items with text to be translated
 const itemsTranslate = Array.from(document.getElementsByClassName("translate"));
 
@@ -472,6 +475,21 @@ function resetCheckbox(...checkboxs) {
 }
 
 window.onload = () => {
+  // Only if load is first time
+  if (!sessionStorage.getItem("refresh")) {
+    // Reset local data when update is up
+    if (Number(localStorage.getItem("currentVersion")) < currentVersion) {
+      localStorage.setItem("currentVersion", currentVersion);
+      localStorage.clear();
+    }
+    sessionStorage.setItem("refresh", true);
+  }
+  // Prevent old local data to appear and save new version to future refresh
+  if (!localStorage.getItem("currentVersion")) {
+    localStorage.clear();
+    localStorage.setItem("currentVersion", currentVersion);
+  }
+
   // Check user navigator language
   let navigatorLanguage = navigator.language || navigator.userLanguage;
   // Change text of application if language is registered
