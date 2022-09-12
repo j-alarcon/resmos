@@ -48,7 +48,7 @@ img[src=""] {
 }
 
 .background-space {
-  background: url("../img/background/space.webp") 0vh/180vh;
+  background: url("../img/background/space.png") 0vh/180vh;
   background-color: #37425b;
 }
 
@@ -73,7 +73,7 @@ img[src=""] {
 }
 
 .cast-reaction {
-  background: url("../img/logos/resmos.webp") no-repeat center/8vh;
+  background: url("../img/logos/resmos.png") no-repeat center/8vh;
 }
 
 .background-white {
@@ -282,7 +282,7 @@ body {
 }
 
 #player-photo {
-  background: url("./../img/portraits/default.webp") no-repeat center/cover;
+  background: url("./../img/portraits/default.png") no-repeat center/cover;
 }
 
 .photo {
