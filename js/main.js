@@ -1,4 +1,4 @@
-// https://github.com/j-alarcon
+// https://yarduon.com
 import { Reaction } from "./model.js";
 import {
   names,
