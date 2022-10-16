@@ -28,7 +28,7 @@ img[src=""] {
 }
 
 .max-height {
-  height: 100vh;
+  height: 100%;
 }
 
 .overflow-hidden {
@@ -244,16 +244,16 @@ body {
 }
 
 .player-ui {
-  height: 40%;
+  height: 35%;
   background-size: 224vh 150vh;
 }
 
 .top-container {
-  margin-bottom: 5vh;
+  margin-bottom: 2.7vh;
 }
 
 .bottom-container {
-  height: 35%;
+  margin-bottom: 4vh
 }
 
 .life {
@@ -313,7 +313,7 @@ body {
 }
 
 .table {
-  height: 28vh;
+  height: 30vh;
 }
 
 .item-table {
