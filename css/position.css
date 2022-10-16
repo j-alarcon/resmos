@@ -17,6 +17,11 @@
   z-index: 1;
 }
 
+.footer-container,
+.bottom-container {
+  bottom: 0;
+}
+
 .flex {
   display: flex;
 }
@@ -45,7 +50,7 @@
   justify-content: space-around;
 }
 
-.justify-space-between{
+.justify-space-between {
   justify-content: space-between;
 }
 
@@ -78,10 +83,5 @@
 }
 
 .footer-container {
-  bottom: 0;
   right: 0;
-}
-
-.bottom-container{
-  bottom: 0;
 }
