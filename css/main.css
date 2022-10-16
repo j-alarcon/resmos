@@ -237,8 +237,15 @@ body {
 
 .player-ui {
   height: 40%;
-  background: url("./../img/background/panel.svg") repeat-x center;
   background-size: 230vh 150vh;
+}
+
+.top-ui {
+  background: url("./../img/background/panel_top.svg") repeat-x center;
+}
+
+.bottom-ui {
+  background: url("./../img/background/panel_bottom.svg") repeat-x center;
 }
 
 .players-container {
