@@ -1,6 +1,15 @@
 /* https://yarduon.com */
-@media screen and (max-width: 1000px) {
+
+@media screen and (min-width: 1000px) {
   .footer-container:hover {
-    width: 7.3vh;
+    width: 19vh;
+  }
+
+  .footer-container:hover .data-sign {
+    display: block;
   }
 }
+
+@media screen and (max-width: 1000px) {
+}
+

@@ -245,7 +245,7 @@ body {
 
 .player-ui {
   height: 40%;
-  background-size: 230vh 150vh;
+  background-size: 224vh 150vh;
 }
 
 .top-container {
@@ -253,7 +253,7 @@ body {
 }
 
 .bottom-container {
-  margin-bottom: 6vh;
+  height: 35%;
 }
 
 .life {
@@ -383,14 +383,6 @@ body {
 
 .penguin:hover {
   opacity: 0.8;
-}
-
-.footer-container:hover {
-  width: 19vh;
-}
-
-.footer-container:hover .data-sign {
-  display: block;
 }
 
 .data-sign {
