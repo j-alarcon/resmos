@@ -235,11 +235,6 @@ body {
   height: 3.5vh;
 }
 
-.player-ui {
-  height: 40%;
-  background-size: 230vh 150vh;
-}
-
 .top-ui {
   background: url("./../img/background/panel_top.svg") repeat-x center;
 }
@@ -248,16 +243,17 @@ body {
   background: url("./../img/background/panel_bottom.svg") repeat-x center;
 }
 
-.players-container {
-  height: 30vh;
+.player-ui {
+  height: 40%;
+  background-size: 230vh 150vh;
 }
 
-#player-container {
-  margin-bottom: 1.5vh;
+.top-container {
+  margin-bottom: 5vh;
 }
 
-#computer-container {
-  margin-top: 13.5vh;
+.bottom-container {
+  margin-bottom: 6vh;
 }
 
 .life {
