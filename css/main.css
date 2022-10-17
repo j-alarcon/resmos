@@ -248,13 +248,9 @@ body {
   background-size: 217vh;
 }
 
-.bottom-container {
-  margin-bottom: 4.5vh;
-}
-
 .life {
   width: 1.3vh;
-  margin: .5vh 0 0 .5vh;
+  margin: 0.5vh 0 0 0.5vh;
   height: 68%;
 }
 
@@ -273,7 +269,7 @@ body {
 
 .minus-percentage {
   padding: 0.6vh;
-  margin: .5vh 0 0 2.2vh;
+  margin: 0.5vh 0 0 2.2vh;
 }
 
 #computer-photo {
