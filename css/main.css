@@ -245,11 +245,7 @@ body {
 
 .player-ui {
   height: 35%;
-  background-size: 217vh 100vh;
-}
-
-.top-container{
-  margin-bottom: 2vh;
+  background-size: 217vh;
 }
 
 .bottom-container {
@@ -305,20 +301,20 @@ body {
 }
 
 .icon-table {
-  width: 9vh;
+  width: 10vh;
 }
 
 .middle {
-  height: 20%;
+  height: 30%;
 }
 
 .table {
-  height: 30vh;
+  height: 100%;
 }
 
 .item-table {
-  width: 10vh;
-  height: 10vh;
+  width: 11vh;
+  height: 11vh;
   border: 0.6vh solid black;
 }
 
