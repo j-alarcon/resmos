@@ -1,30 +1,30 @@
 if (!self.define) {
   let e,
     i = {};
-  const c = (c, s) => (
-    (c = new URL(c + ".js", s).href),
-    i[c] ||
+  const s = (s, c) => (
+    (s = new URL(s + ".js", c).href),
+    i[s] ||
       new Promise((i) => {
         if ("document" in self) {
           const e = document.createElement("script");
-          (e.src = c), (e.onload = i), document.head.appendChild(e);
-        } else (e = c), importScripts(c), i();
+          (e.src = s), (e.onload = i), document.head.appendChild(e);
+        } else (e = s), importScripts(s), i();
       }).then(() => {
-        let e = i[c];
-        if (!e) throw new Error(`Module ${c} didn’t register its module`);
+        let e = i[s];
+        if (!e) throw new Error(`Module ${s} didn’t register its module`);
         return e;
       })
   );
-  self.define = (s, r) => {
-    const o =
+  self.define = (c, r) => {
+    const a =
       e ||
       ("document" in self ? document.currentScript.src : "") ||
       location.href;
-    if (i[o]) return;
-    let a = {};
-    const n = (e) => c(e, o),
-      f = { module: { uri: o }, exports: a, require: n };
-    i[o] = Promise.all(s.map((e) => f[e] || n(e))).then((e) => (r(...e), a));
+    if (i[a]) return;
+    let n = {};
+    const o = (e) => s(e, a),
+      f = { module: { uri: a }, exports: n, require: o };
+    i[a] = Promise.all(c.map((e) => f[e] || o(e))).then((e) => (r(...e), n));
   };
 }
 define(["./workbox-7e688afb"], function (e) {
@@ -50,131 +50,135 @@ define(["./workbox-7e688afb"], function (e) {
         },
         {
           url: "css/animation.css",
-          revision: "da3bb08a343302f5110d991f4f5c031a",
+          revision: "4cbf23425b05f1ef26b48dd35f9f0b63",
         },
-        { url: "css/fonts.css", revision: "b5268186be8854158959837cae54e53f" },
-        { url: "css/main.css", revision: "bb7b6a687f4d9d870c2802a2610fa706" },
+        { url: "css/fonts.css", revision: "871492272a48d9a3f675be608f7756aa" },
+        { url: "css/main.css", revision: "4154799148ac65770059e82174e36cb8" },
         {
           url: "css/position.css",
-          revision: "0cb28daefb44f27e91095e78e8ae4442",
+          revision: "ecab50412eaea4c96bc75ec21b1aae8e",
         },
-        { url: "css/reset.css", revision: "8c0490f82f0b190e8b332caa546306b0" },
+        { url: "css/reset.css", revision: "9ebd1ac99acfdd20a3f66d641bd93be3" },
         {
           url: "css/responsive.css",
-          revision: "6b1257c650c3ba14c3396cd3dcd4524e",
+          revision: "54cd3c4cf9a5c8aa04b8799cfb83a95d",
         },
         {
           url: "fonts/poppins.ttf",
           revision: "bf59c687bc6d3a70204d3944082c5cc0",
         },
-        { url: "FUNDING.yml", revision: "d71ac27283ed800598bb8fb4b731ff6c" },
+        { url: "FUNDING.yml", revision: "c21af649c611bd5a3389bd3401dd5c71" },
         {
-          url: "img/background/panel.svg",
-          revision: "eff6597e77aa7cfc593ddfc8ce045415",
+          url: "img/background/panel_bottom.svg",
+          revision: "8e3e8b257cf32dd38b6c4860c8bb3410",
         },
         {
-          url: "img/background/space.webp",
-          revision: "02baa268ba111234759438fbad0fe425",
+          url: "img/background/panel_top.svg",
+          revision: "c0ee82e6dc6e1f1dc928df6bbd896a99",
         },
         {
-          url: "img/favicon.webp",
-          revision: "b965769ee245f3da0358f921b59d2537",
+          url: "img/background/space.png",
+          revision: "571738c9bdf77c7fd877bdddc0e035d5",
         },
         {
-          url: "img/icons/blizzard.webp",
-          revision: "32b4c5f5fa230c6bef9c904eab7b5104",
+          url: "img/favicon.png",
+          revision: "6d37c5392219f48ca159cfba1b382178",
         },
         {
-          url: "img/icons/explosion.webp",
-          revision: "4cc1e5e8155969aba52a4ca95a9acf44",
+          url: "img/icons/blizzard.png",
+          revision: "25b73fcf0e2a49afbb0890818853c1bf",
         },
         {
-          url: "img/icons/fire.webp",
-          revision: "e44c6d8de6cdac6b26d2f9c773071df9",
+          url: "img/icons/explosion.png",
+          revision: "e3059a0eeb6bdfcf8081084692587b12",
         },
         {
-          url: "img/icons/heat_wave.webp",
-          revision: "65fb5f4032d355ef6fede4c0cc8cb00a",
+          url: "img/icons/fire.png",
+          revision: "375cef63415722eef8f0b6f5883a3029",
         },
         {
-          url: "img/icons/hurricane.webp",
-          revision: "9b06c521966bbd46f7aaed06a6b78440",
+          url: "img/icons/heat_wave.png",
+          revision: "21dd17681f1bef845229f0c997ecaa36",
         },
         {
-          url: "img/icons/ice.webp",
-          revision: "b4d852a0ed619c8b2c0ebe4f9383ffa4",
+          url: "img/icons/hurricane.png",
+          revision: "00518daab3dec47b44e16e007748b7d4",
         },
         {
-          url: "img/icons/machine.webp",
-          revision: "76af78991a8160a0a8812b06669d6530",
+          url: "img/icons/ice.png",
+          revision: "ef6baf3153fe083f3ba5a613b5ee93a1",
+        },
+        {
+          url: "img/icons/machine.png",
+          revision: "21e1a312fb7e8206944e264a96790992",
         },
         {
           url: "img/icons/reset.svg",
           revision: "d98dceb4eefcb90839dea47e55fc3ea6",
         },
         {
-          url: "img/icons/snowbot.webp",
-          revision: "3bf01cee06029ee4f0cac734e0f5ff96",
+          url: "img/icons/snowbot.png",
+          revision: "433cc7254481b43d6ad2fa69094bd25f",
         },
         {
-          url: "img/icons/water.webp",
-          revision: "34e37b9a5486a6360ae1330160731196",
+          url: "img/icons/water.png",
+          revision: "5487811786cdc7ef7dfa4be7ac0276a5",
         },
         {
-          url: "img/icons/wind.webp",
-          revision: "02153f00ce5833c0680685a50278c2e3",
+          url: "img/icons/wind.png",
+          revision: "6314c0f73f119416de7d1b32090a0c74",
         },
         {
-          url: "img/logos/penguin_white.webp",
-          revision: "055e603b725c349e0cd46c0d4cc1ee14",
+          url: "img/logos/resmos.png",
+          revision: "a341d63b43208e9dff90b64c4888f18e",
         },
         {
-          url: "img/logos/resmos.webp",
-          revision: "670aa3e9d509b57a27e9758497c028c7",
+          url: "img/logos/white_penguin.png",
+          revision: "4af174c330d334424b2e206cc9dc4c62",
         },
         {
-          url: "img/portraits/1.webp",
-          revision: "131c9820dfc4cdabf5b69747c6305641",
+          url: "img/portraits/1.png",
+          revision: "c28f31e5195ba9bface14260ce7d0615",
         },
         {
-          url: "img/portraits/10.webp",
-          revision: "5a61bb5192ce6ef37bddd0b8e139a869",
+          url: "img/portraits/10.png",
+          revision: "618493b44933a49f2ea89268b1bf39aa",
         },
         {
-          url: "img/portraits/2.webp",
-          revision: "d289459ff62df9ff40416e486d873759",
+          url: "img/portraits/2.png",
+          revision: "ba9fc65dd8a29930d2de6c0afc6bc692",
         },
         {
-          url: "img/portraits/3.webp",
-          revision: "feceebc3027ceb6d633639d1d2ac8c90",
+          url: "img/portraits/3.png",
+          revision: "1514f27302047163acbe031bb59cef89",
         },
         {
-          url: "img/portraits/4.webp",
-          revision: "85cf01b91e449f75fb20fbd74d0b0229",
+          url: "img/portraits/4.png",
+          revision: "59270afd2c14514774a5a7f2be780509",
         },
         {
-          url: "img/portraits/5.webp",
-          revision: "7a720b80e36f48fe7ec251415b569f8e",
+          url: "img/portraits/5.png",
+          revision: "5af46ef6a511d9497e26902ba2cfcb28",
         },
         {
-          url: "img/portraits/6.webp",
-          revision: "bbc775b5fbb94c46217aab0fde30e0c1",
+          url: "img/portraits/6.png",
+          revision: "292c7b8e81910d929eb8843fe87cffee",
         },
         {
-          url: "img/portraits/7.webp",
-          revision: "500aed578d9cc594839e3d82d222f8cf",
+          url: "img/portraits/7.png",
+          revision: "3a1a62737701b57ca2e758929e5412ad",
         },
         {
-          url: "img/portraits/8.webp",
-          revision: "7b2fc25879a1f35a64da86f5070cb0b5",
+          url: "img/portraits/8.png",
+          revision: "5b3cae604e22ecdbaf7a8e8bd2c19e61",
         },
         {
-          url: "img/portraits/9.webp",
-          revision: "1cb434027e8185c146f08e9271dae401",
+          url: "img/portraits/9.png",
+          revision: "0eb0671939cff366c2579094c9d5fb27",
         },
         {
-          url: "img/portraits/default.webp",
-          revision: "440e3a34c95907f640039c5b549df85d",
+          url: "img/portraits/default.png",
+          revision: "ac2ed17447261998a702999ab5ebf554",
         },
         {
           url: "img/pwa/badges/android_en.png",
@@ -186,62 +190,62 @@ define(["./workbox-7e688afb"], function (e) {
         },
         {
           url: "img/pwa/icons/resmos_icon_1024x1024.png",
-          revision: "06780941a3a7f28e6c58e60430f45b06",
+          revision: "be02e5984edbf96453130b1372dce24d",
         },
         {
           url: "img/pwa/icons/resmos_icon_128x128.png",
-          revision: "7492b69f7294950f79d2d85150c09ea8",
+          revision: "af1c5bbe5b0fad45f1a61a88d9fae763",
         },
         {
           url: "img/pwa/icons/resmos_icon_144x144.png",
-          revision: "b9e421e55c048f4ba96143c486b421a7",
+          revision: "45e43a55ef4e23d1389d4a3fe4b4afd0",
         },
         {
           url: "img/pwa/icons/resmos_icon_192x192.png",
-          revision: "6278673df4922bf609d59f25d56fda8b",
+          revision: "39024346aae42f38d8bd65e1c29dbe7d",
         },
         {
           url: "img/pwa/icons/resmos_icon_256x256.png",
-          revision: "7372e061c2c636d411f81eb62c7b8ee4",
+          revision: "245d6cd3f160a3cf5ada9857fb7bc755",
         },
         {
           url: "img/pwa/icons/resmos_icon_32x32.png",
-          revision: "b0820c1df1c8ef70140ce77ffa5ba988",
+          revision: "7c23a6d1ee3904a06e34719cb55faa45",
         },
         {
           url: "img/pwa/icons/resmos_icon_384x384.png",
-          revision: "06b784ca5406e1708fc9d019f41e15b5",
+          revision: "b66f70d643ae3963002a32dccb0f002b",
         },
         {
           url: "img/pwa/icons/resmos_icon_48x48.png",
-          revision: "f402c33e97699045171cc036264860fc",
+          revision: "fa76254e6200fae8ddae03d4e10c1734",
         },
         {
           url: "img/pwa/icons/resmos_icon_512x512.png",
-          revision: "4b63e89f86d080b78fe589e2e8afda7d",
+          revision: "ff81b985f2a423d32b229874185ace49",
         },
         {
           url: "img/pwa/icons/resmos_icon_64x64.png",
-          revision: "cd2fdeefe27e4efdff5609aa2d89e880",
+          revision: "95be87f0fa2fb5ba471fb0bdcb19efa2",
         },
         {
           url: "img/pwa/icons/resmos_icon_72x72.png",
-          revision: "2aac2d0cba541b4dbe073da9cce0cafd",
+          revision: "ec980307d94dc8b1f69a688ba77a2db6",
         },
         {
           url: "img/pwa/icons/resmos_icon_96x96.png",
-          revision: "384df9efe6fb9a82f9e90ab890365de3",
+          revision: "e757419e64ec452c7a60311449c36487",
         },
-        { url: "index.html", revision: "46a812daf56327e493d42520301bd3c3" },
-        { url: "js/main.js", revision: "9dc33cb5a0edc1f21957273b4ae7c03b" },
-        { url: "js/model.js", revision: "3c0b41e78ca8c0f1ea590f683c09b4fc" },
-        { url: "js/utility.js", revision: "122442a7b25462fd9ba0655b93c34866" },
+        { url: "index.html", revision: "4ceef187b69b6be7e75455de0efa7fd2" },
+        { url: "js/main.js", revision: "b7f80d995d9cce2598d1624a911ab093" },
+        { url: "js/model.js", revision: "cc6373dc6f269fc94d94ea331ab7b691" },
+        { url: "js/utility.js", revision: "7436c90cc6fa9c3b980cd1763514ab6b" },
         {
           url: "json/languages.js",
-          revision: "cce1a456c7c3981bac4a3963d27ded90",
+          revision: "08f6f1c8cb268bf3f50067ea0417aed7",
         },
-        { url: "manifest.json", revision: "a2373559313b9cdf3d132afb93dd06d7" },
-        { url: "README.md", revision: "9efb4866f120f9144d9e6bce6ecf7c36" },
+        { url: "manifest.json", revision: "6b0b3d2606abd78ea571331e393795a9" },
+        { url: "README.md", revision: "33bb35f91dc72d50e42d1392204f1389" },
       ],
       { ignoreURLParametersMatching: [/^utm_/, /^fbclid$/] }
     );
