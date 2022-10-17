@@ -1,6 +1,6 @@
 /* https://yarduon.com */
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1400px) {
   .footer-container:hover {
     width: 19vh;
   }
@@ -10,6 +10,8 @@
   }
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1400px) {
+  .infinite {
+    animation: none;
+  }
 }
-
