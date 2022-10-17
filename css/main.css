@@ -248,18 +248,14 @@ body {
   background-size: 217vh;
 }
 
-.top-container {
-  margin-bottom: 3vh;
-}
-
 .bottom-container {
   margin-bottom: 4.5vh;
 }
 
 .life {
   width: 1.3vh;
-  margin: 1.9vh 0 0 1.5vh;
-  height: 62%;
+  margin: .5vh 0 0 .5vh;
+  height: 68%;
 }
 
 .lost-life {
@@ -277,7 +273,7 @@ body {
 
 .minus-percentage {
   padding: 0.6vh;
-  margin: 2vh 0 0 3vh;
+  margin: .5vh 0 0 2.2vh;
 }
 
 #computer-photo {
@@ -291,8 +287,6 @@ body {
 .photo {
   width: 17.5vh;
   height: 14vh;
-  margin-left: 1.2vh;
-  margin-top: 1.5vh;
   border-top-right-radius: 4.5vh;
 }
 
@@ -325,7 +319,6 @@ body {
 .selections {
   width: 17.6vh;
   height: 7vh;
-  margin-left: 1.3vh;
   border-bottom-left-radius: 2vh;
 }
 
