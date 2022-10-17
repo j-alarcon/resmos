@@ -248,6 +248,10 @@ body {
   background-size: 217vh;
 }
 
+.top-container{
+  margin-bottom: 1.5vh;
+}
+
 .bottom-container {
   margin-bottom: 5.5vh;
 }
