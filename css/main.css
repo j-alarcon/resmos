@@ -213,7 +213,7 @@ body {
 }
 
 .difficulties {
-  height: 4vh;
+  height: 3.5vh;
   font-size: 1.9vh;
 }
 
@@ -245,15 +245,15 @@ body {
 
 .player-ui {
   height: 35%;
-  background-size: 224vh 150vh;
+  background-size: 217vh 100vh;
 }
 
-.top-container {
-  margin-bottom: 2.7vh;
+.top-container{
+  margin-bottom: 2vh;
 }
 
 .bottom-container {
-  margin-bottom: 4vh
+  margin-bottom: 5.5vh;
 }
 
 .life {
@@ -340,7 +340,7 @@ body {
 }
 
 #left-submenu {
-  margin-top: 5.4vh;
+  margin-bottom: 40vh;
   margin-right: 21.2vh;
   height: 16vh;
   border-radius: 1vh 0 0 1vh;
