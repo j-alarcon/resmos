@@ -101,10 +101,10 @@ There are two ways to see my work:
         <em>I would like to have it on my device:</em>
         <ol>
             </br>
-            <a href="https://apps.microsoft.com/store/detail/resmos/9N2V96R46H8Q?hl=en-mx&gl=mx">
+            <a href="https://apps.microsoft.com/store/detail/resmos/9N2V96R46H8Q?hl=en">
                 <img alt="Windows badge" src="./img/pwa/badges/windows_en.png" />
             </a>
-            <a href="https://play.google.com/store/apps/details?id=reactions.game.twa&hl=es">
+            <a href="https://play.google.com/store/apps/details?id=reactions.game.twa&hl=en">
                 <img alt="Android badge" src="./img/pwa/badges/android_en.png" />
             </a> 
         </ol>
