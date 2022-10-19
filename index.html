@@ -54,7 +54,7 @@
     <script type="module" src="./js/main.js" defer></script>
   </head>
   <body
-    class="flex direction-column max-height background-space infinite overflow-hidden"
+    class="flex direction-column max-height background-space infinite poppins overflow-hidden"
   >
     <main
       class="flex direction-column justify-space-between max-width max-height overflow-hidden"
@@ -111,9 +111,7 @@
           <div
             class="selections background-grey flex justify-space-around align-center"
           >
-            <div
-              class="option outline flex justify-center align-center hidden-webstyles block"
-            >
+            <div class="option outline flex justify-center align-center block">
               <img
                 class="icon-select"
                 id="panel-element-left-computer"
@@ -121,9 +119,7 @@
                 alt=""
               />
             </div>
-            <div
-              class="option outline flex justify-center align-center hidden-webstyles block"
-            >
+            <div class="option outline flex justify-center align-center block">
               <img
                 class="icon-select"
                 id="panel-element-right-computer"
@@ -136,7 +132,7 @@
       </div>
       <div class="middle flex justify-center align-center relative">
         <div
-          class="table absolute flex direction-column justify-space-around align-center"
+          class="table absolute flex direction-column justify-space-around align-center max-height"
         >
           <span
             class="item-table flex justify-center align-center background-white big-outline hidden"
@@ -155,7 +151,9 @@
           </span>
         </div>
       </div>
-      <div class="player-ui bottom-ui flex justify-center align-center max-">
+      <div
+        class="player-ui bottom-ui flex justify-center align-center max-width"
+      >
         <div
           class="bottom-container flex direction-column justify-center align-center absolute"
           id="player-container"
@@ -189,7 +187,7 @@
             </div>
           </div>
           <div
-            class="submenu flex justify-center align-center direction-column hidden background-white absolute hidden-webstyles big-outline outline-space"
+            class="submenu flex justify-center align-center direction-column hidden background-white absolute border-space"
             id="left-submenu"
           >
             <span
@@ -234,14 +232,14 @@
             </span>
           </div>
           <div
-            class="submenu flex justify-center align-center direction-column hidden background-white hidden-webstyles big-outline outline-space absolute"
+            class="submenu flex justify-center align-center direction-column hidden background-white border-space absolute"
             id="right-submenu"
           ></div>
           <div
             class="selections background-grey flex justify-space-around align-center relative"
           >
             <div
-              class="option outline flex justify-center align-center hidden-webstyles unselected"
+              class="option outline flex justify-center align-center unselected"
             >
               <label
                 for="left-panel"
@@ -260,9 +258,7 @@
                 id="left-panel"
               />
             </div>
-            <div
-              class="option outline flex justify-center align-center hidden-webstyles block"
-            >
+            <div class="option outline flex justify-center align-center block">
               <label
                 for="right-panel"
                 class="flex justify-center align-center max-width pointer"
@@ -281,7 +277,7 @@
               />
             </div>
             <div
-              class="option outline flex justify-center align-center hidden-webstyles unselected hide"
+              class="option outline flex justify-center align-center unselected hide"
             >
               <span
                 id="reset"

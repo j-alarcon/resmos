@@ -4,13 +4,20 @@
   width: 3.8vh;
 }
 
-.minus-percentage {
-  font-size: 1.7vh;
+.player-ui,
+#right-submenu span {
+  height: 35%;
 }
 
-.minus-percentage,
-.selections {
-  border-bottom-right-radius: 2vh;
+.selections,
+.footer-container {
+  height: 7vh;
+}
+
+.difficulties,
+.container-hp,
+.player-name {
+  font-size: 1.9vh;
 }
 
 .invisible,
@@ -35,14 +42,6 @@ img[src=""] {
   overflow: hidden;
 }
 
-.hidden-webstyles {
-  appearance: none;
-  -webkit-appearance: none;
-  -o-appearance: none;
-  -moz-appearance: none;
-  margin: 0;
-}
-
 .grayscale {
   filter: grayscale();
 }
@@ -57,7 +56,6 @@ img[src=""] {
 
 .background-space {
   background: url("../img/background/space.png") 0vh/180vh;
-  background-color: #37425b;
 }
 
 .background-grey {
@@ -100,7 +98,8 @@ img[src=""] {
   background-color: #bd3a2e;
 }
 
-.selected {
+.selected,
+.background-space {
   background-color: #37425b;
 }
 
@@ -114,10 +113,6 @@ img[src=""] {
 
 .outline-white {
   outline-color: white;
-}
-
-.outline-space {
-  outline-color: #37425b;
 }
 
 .outline-grey {
@@ -188,12 +183,20 @@ img[src=""] {
   text-shadow: 0.1vh 0.1vh black;
 }
 
+.poppins {
+  font-family: "Poppins";
+}
+
 .bold {
   font-weight: bold;
 }
 
 .border-white {
   border: 0.6vh solid white;
+}
+
+.border-space {
+  border: 0.6vh solid #37425b;
 }
 
 .no-border {
@@ -216,13 +219,8 @@ img[src=""] {
   visibility: hidden;
 }
 
-body {
-  font-family: "Poppins";
-}
-
 .difficulties {
   height: 3vh;
-  font-size: 1.9vh;
 }
 
 .difficulty {
@@ -252,7 +250,6 @@ body {
 }
 
 .player-ui {
-  height: 35%;
   background-size: 217vh;
 }
 
@@ -269,13 +266,12 @@ body {
 
 .container-hp {
   height: 3.1vh;
-  margin-top: 9.9vh;
-  margin-right: -0.4vh;
-  font-size: 1.9vh;
+  margin: 9.9vh -0.4vh 0 0;
   border-top-right-radius: 0.8vh;
 }
 
 .minus-percentage {
+  font-size: 1.7vh;
   padding: 0.6vh;
   margin: 0.5vh 0 0 2.2vh;
 }
@@ -299,7 +295,6 @@ body {
   height: 2.8vh;
   padding: 1vh 0.5vh 1vh 0;
   margin: 10.6vh 0 0 0;
-  font-size: 1.9vh;
 }
 
 .icon-table {
@@ -310,10 +305,6 @@ body {
   height: 30%;
 }
 
-.table {
-  height: 100%;
-}
-
 .item-table {
   width: 11vh;
   height: 11vh;
@@ -322,8 +313,9 @@ body {
 
 .selections {
   width: 17.6vh;
-  height: 7vh;
+  border: 0.3vh solid #30303b;
   border-bottom-left-radius: 2vh;
+  border-bottom-right-radius: 2vh;
 }
 
 .option {
@@ -338,22 +330,19 @@ body {
 
 #left-submenu {
   height: 16vh;
-  border-radius: 1vh 0 0 1vh;
 }
 
 #right-submenu {
   height: 13vh;
-  border-radius: 0 1vh 1vh 0;
 }
 
 .item-submenu-left {
   height: 25%;
-  padding-right: 0.9vh;
+  padding-right: 1vh;
 }
 
 #right-submenu span {
-  height: 35%;
-  padding-left: 0.9vh;
+  padding-left: 1vh;
 }
 
 #cast-reaction {
@@ -366,7 +355,6 @@ body {
 
 .footer-container {
   width: 7vh;
-  height: 7vh;
 }
 
 .penguin {

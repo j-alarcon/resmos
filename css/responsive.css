@@ -1,5 +1,4 @@
 /* https://yarduon.com */
-
 @media screen and (min-width: 1400px) {
   .footer-container:hover {
     width: 19vh;
@@ -16,6 +15,6 @@
   }
 
   .background-space {
-    background-position: 153vh .3vh;
+    background-position: 153vh 0.3vh;
   }
 }
