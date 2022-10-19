@@ -337,13 +337,11 @@ body {
 }
 
 #left-submenu {
-  margin: 4vh 23vh 0 0;
   height: 16vh;
   border-radius: 1vh 0 0 1vh;
 }
 
 #right-submenu {
-  margin: 7vh 0 0 23vh;
   height: 13vh;
   border-radius: 0 1vh 1vh 0;
 }

@@ -70,6 +70,16 @@
   z-index: 0;
 }
 
+#left-submenu {
+  right: 16.5vh;
+  top: 4.4vh;
+}
+
+#right-submenu {
+  left: 16.5vh;
+  top: 7.4vh;
+}
+
 .players-container {
   bottom: 4vh;
 }
