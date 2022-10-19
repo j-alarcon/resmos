@@ -14,4 +14,8 @@
   .infinite {
     animation: none;
   }
+
+  .background-space {
+    background-position: 153vh .3vh;
+  }
 }
