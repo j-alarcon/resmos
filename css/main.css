@@ -35,6 +35,14 @@ img[src=""] {
   overflow: hidden;
 }
 
+.hidden-webstyles {
+  appearance: none;
+  -webkit-appearance: none;
+  -o-appearance: none;
+  -moz-appearance: none;
+  margin: 0;
+}
+
 .grayscale {
   filter: grayscale();
 }
