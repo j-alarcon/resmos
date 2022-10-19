@@ -49,7 +49,6 @@ img[src=""] {
 
 .background-space {
   background: url("../img/background/space.png") 0vh/180vh;
-  background-position: -30vh;
   background-color: #37425b;
 }
 
@@ -170,7 +169,7 @@ img[src=""] {
 }
 
 .infinite {
-  /*  animation: infiniteBackground 60s linear infinite; */
+  animation: infiniteBackground 60s linear infinite;
 }
 
 .text-white {

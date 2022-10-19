@@ -9,6 +9,232 @@
   "version": "1.3",
   "iarc_rating_id": "a757ab02-a453-4066-baf4-00547cc0da88",
   "categories": ["games", "entertainment", "strategy"],
+  "screenshots": [
+    {
+      "src": "./img/pwa/screenshots/english/computer_start_en.png",
+      "sizes": "1920x1080",
+      "type": "image/png",
+      "platform": "wide",
+      "label": "Start of the confrontation"
+    },
+    {
+      "src": "./img/pwa/screenshots/spanish/computer_start_spa.png",
+      "sizes": "1920x1080",
+      "type": "image/png",
+      "platform": "wide",
+      "label": "Comienzo del enfrentamiento"
+    },
+    {
+      "src": "./img/pwa/screenshots/english/computer_half_life_en.png",
+      "sizes": "1920x1080",
+      "type": "image/png",
+      "platform": "wide",
+      "label": "Confrontation at half life"
+    },
+    {
+      "src": "./img/pwa/screenshots/spanish/computer_half_life_spa.png",
+      "sizes": "1920x1080",
+      "type": "image/png",
+      "platform": "wide",
+      "label": "Enfrentamiento a la mitad de vida"
+    },
+    {
+      "src": "./img/pwa/screenshots/english/computer_low_life_en.png",
+      "sizes": "1920x1080",
+      "type": "image/png",
+      "platform": "wide",
+      "label": "Confrontation at low life"
+    },
+    {
+      "src": "./img/pwa/screenshots/spanish/computer_low_life_spa.png",
+      "sizes": "1920x1080",
+      "type": "image/png",
+      "platform": "wide",
+      "label": "Enfrentamiento a baja vida"
+    },
+    {
+      "src": "./img/pwa/screenshots/english/computer_end_en.png",
+      "sizes": "1920x1080",
+      "type": "image/png",
+      "platform": "wide",
+      "label": "End of the confrontation"
+    },
+    {
+      "src": "./img/pwa/screenshots/spanish/computer_end_spa.png",
+      "sizes": "1920x1080",
+      "type": "image/png",
+      "platform": "wide",
+      "label": "Finalización del enfrentamiento"
+    },
+    {
+      "src": "./img/pwa/screenshots/english/mobile_start_en.png",
+      "sizes": "1440x2960",
+      "type": "image/png",
+      "platform": "narrow",
+      "label": "Start of the confrontation"
+    },
+    {
+      "src": "./img/pwa/screenshots/spanish/mobile_start_spa.png",
+      "sizes": "1440x2960",
+      "type": "image/png",
+      "platform": "narrow",
+      "label": "Comienzo del enfrentamiento"
+    },
+    {
+      "src": "./img/pwa/screenshots/english/mobile_half_life_en.png",
+      "sizes": "1440x2960",
+      "type": "image/png",
+      "platform": "narrow",
+      "label": "Confrontation at half life"
+    },
+    {
+      "src": "./img/pwa/screenshots/spanish/mobile_half_life_spa.png",
+      "sizes": "1440x2960",
+      "type": "image/png",
+      "platform": "narrow",
+      "label": "Enfrentamiento a la mitad de vida"
+    },
+    {
+      "src": "./img/pwa/screenshots/english/mobile_low_life_en.png",
+      "sizes": "1440x2960",
+      "type": "image/png",
+      "platform": "narrow",
+      "label": "Confrontation at low life"
+    },
+    {
+      "src": "./img/pwa/screenshots/spanish/mobile_low_life_spa.png",
+      "sizes": "1440x2960",
+      "type": "image/png",
+      "platform": "narrow",
+      "label": "Enfrentamiento a baja vida"
+    },
+    {
+      "src": "./img/pwa/screenshots/english/mobile_end_en.png",
+      "sizes": "1440x2960",
+      "type": "image/png",
+      "platform": "narrow",
+      "label": "End of the confrontation"
+    },
+    {
+      "src": "./img/pwa/screenshots/spanish/mobile_end_spa.png",
+      "sizes": "1440x2960",
+      "type": "image/png",
+      "platform": "narrow",
+      "label": "Finalización del enfrentamiento"
+    },
+    {
+      "src": "./img/pwa/screenshots/english/tablet_7inch_start_en.png",
+      "sizes": "1200x1920",
+      "type": "image/png",
+      "platform": "narrow",
+      "label": "Start of the confrontation"
+    },
+    {
+      "src": "./img/pwa/screenshots/spanish/tablet_7inch_start_spa.png",
+      "sizes": "1200x1920",
+      "type": "image/png",
+      "platform": "narrow",
+      "label": "Comienzo del enfrentamiento"
+    },
+    {
+      "src": "./img/pwa/screenshots/english/tablet_7inch_half_life_en.png",
+      "sizes": "1200x1920",
+      "type": "image/png",
+      "platform": "narrow",
+      "label": "Confrontation at half life"
+    },
+    {
+      "src": "./img/pwa/screenshots/spanish/tablet_7inch_half_life_spa.png",
+      "sizes": "1200x1920",
+      "type": "image/png",
+      "platform": "narrow",
+      "label": "Enfrentamiento a la mitad de vida"
+    },
+    {
+      "src": "./img/pwa/screenshots/english/tablet_7inch_low_life_en.png",
+      "sizes": "1200x1920",
+      "type": "image/png",
+      "platform": "narrow",
+      "label": "Confrontation at low life"
+    },
+    {
+      "src": "./img/pwa/screenshots/spanish/tablet_7inch_low_life_spa.png",
+      "sizes": "1200x1920",
+      "type": "image/png",
+      "platform": "narrow",
+      "label": "Enfrentamiento a baja vida"
+    },
+    {
+      "src": "./img/pwa/screenshots/english/tablet_7inch_end_en.png",
+      "sizes": "1200x1920",
+      "type": "image/png",
+      "platform": "narrow",
+      "label": "End of the confrontation"
+    },
+    {
+      "src": "./img/pwa/screenshots/spanish/tablet_7inch_end_spa.png",
+      "sizes": "1200x1920",
+      "type": "image/png",
+      "platform": "narrow",
+      "label": "Finalización del enfrentamiento"
+    },
+    {
+      "src": "./img/pwa/screenshots/english/tablet_10inch_start_en.png",
+      "sizes": "1600x2560",
+      "type": "image/png",
+      "platform": "narrow",
+      "label": "Start of the confrontation"
+    },
+    {
+      "src": "./img/pwa/screenshots/spanish/tablet_10inch_start_spa.png",
+      "sizes": "1600x2560",
+      "type": "image/png",
+      "platform": "narrow",
+      "label": "Comienzo del enfrentamiento"
+    },
+    {
+      "src": "./img/pwa/screenshots/english/tablet_10inch_half_life_en.png",
+      "sizes": "1600x2560",
+      "type": "image/png",
+      "platform": "narrow",
+      "label": "Confrontation at half life"
+    },
+    {
+      "src": "./img/pwa/screenshots/spanish/tablet_10inch_half_life_spa.png",
+      "sizes": "1600x2560",
+      "type": "image/png",
+      "platform": "narrow",
+      "label": "Enfrentamiento a la mitad de vida"
+    },
+    {
+      "src": "./img/pwa/screenshots/english/tablet_10inch_low_life_en.png",
+      "sizes": "1600x2560",
+      "type": "image/png",
+      "platform": "narrow",
+      "label": "Confrontation at low life"
+    },
+    {
+      "src": "./img/pwa/screenshots/spanish/tablet_10inch_low_life_spa.png",
+      "sizes": "1600x2560",
+      "type": "image/png",
+      "platform": "narrow",
+      "label": "Enfrentamiento a baja vida"
+    },
+    {
+      "src": "./img/pwa/screenshots/english/tablet_10inch_end_en.png",
+      "sizes": "1600x2560",
+      "type": "image/png",
+      "platform": "narrow",
+      "label": "End of the confrontation"
+    },
+    {
+      "src": "./img/pwa/screenshots/spanish/tablet_10inch_end_spa.png",
+      "sizes": "1600x2560",
+      "type": "image/png",
+      "platform": "narrow",
+      "label": "Finalización del enfrentamiento"
+    }
+  ],
   "lang": "en",
   "start_url": "./",
   "scope": "./",
