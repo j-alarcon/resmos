@@ -1,8 +1,8 @@
 if (!self.define) {
   let e,
     i = {};
-  const s = (s, c) => (
-    (s = new URL(s + ".js", c).href),
+  const s = (s, n) => (
+    (s = new URL(s + ".js", n).href),
     i[s] ||
       new Promise((i) => {
         if ("document" in self) {
@@ -15,16 +15,16 @@ if (!self.define) {
         return e;
       })
   );
-  self.define = (c, r) => {
-    const a =
+  self.define = (n, a) => {
+    const c =
       e ||
       ("document" in self ? document.currentScript.src : "") ||
       location.href;
-    if (i[a]) return;
-    let n = {};
-    const o = (e) => s(e, a),
-      f = { module: { uri: a }, exports: n, require: o };
-    i[a] = Promise.all(c.map((e) => f[e] || o(e))).then((e) => (r(...e), n));
+    if (i[c]) return;
+    let r = {};
+    const o = (e) => s(e, c),
+      f = { module: { uri: c }, exports: r, require: o };
+    i[c] = Promise.all(n.map((e) => f[e] || o(e))).then((e) => (a(...e), r));
   };
 }
 define(["./workbox-7e688afb"], function (e) {
@@ -53,15 +53,15 @@ define(["./workbox-7e688afb"], function (e) {
           revision: "4cbf23425b05f1ef26b48dd35f9f0b63",
         },
         { url: "css/fonts.css", revision: "871492272a48d9a3f675be608f7756aa" },
-        { url: "css/main.css", revision: "4154799148ac65770059e82174e36cb8" },
+        { url: "css/main.css", revision: "49a18f1f9c368daed0070ce13c8df673" },
         {
           url: "css/position.css",
-          revision: "ecab50412eaea4c96bc75ec21b1aae8e",
+          revision: "7968b10eb3705c16ded9393dc2afe131",
         },
         { url: "css/reset.css", revision: "9ebd1ac99acfdd20a3f66d641bd93be3" },
         {
           url: "css/responsive.css",
-          revision: "54cd3c4cf9a5c8aa04b8799cfb83a95d",
+          revision: "a276728c1e9107233f19cc25ba461553",
         },
         {
           url: "fonts/poppins.ttf",
@@ -86,11 +86,11 @@ define(["./workbox-7e688afb"], function (e) {
         },
         {
           url: "img/icons/blizzard.png",
-          revision: "25b73fcf0e2a49afbb0890818853c1bf",
+          revision: "77c50afc79c67aaa8cd6924e19dbb989",
         },
         {
           url: "img/icons/explosion.png",
-          revision: "e3059a0eeb6bdfcf8081084692587b12",
+          revision: "374533691d3699781d1242f1e325b97d",
         },
         {
           url: "img/icons/fire.png",
@@ -98,11 +98,11 @@ define(["./workbox-7e688afb"], function (e) {
         },
         {
           url: "img/icons/heat_wave.png",
-          revision: "21dd17681f1bef845229f0c997ecaa36",
+          revision: "56759fd843d107a3d8291bb3056eda63",
         },
         {
           url: "img/icons/hurricane.png",
-          revision: "00518daab3dec47b44e16e007748b7d4",
+          revision: "1e465350f5ad09938d96850c711bfc85",
         },
         {
           url: "img/icons/ice.png",
@@ -118,11 +118,11 @@ define(["./workbox-7e688afb"], function (e) {
         },
         {
           url: "img/icons/snowbot.png",
-          revision: "433cc7254481b43d6ad2fa69094bd25f",
+          revision: "4cc673cc5eafa88403ec3c5eeb6925af",
         },
         {
           url: "img/icons/water.png",
-          revision: "5487811786cdc7ef7dfa4be7ac0276a5",
+          revision: "a581138c2b2dc36fb5990b847da0caa1",
         },
         {
           url: "img/icons/wind.png",
@@ -142,7 +142,7 @@ define(["./workbox-7e688afb"], function (e) {
         },
         {
           url: "img/portraits/10.png",
-          revision: "618493b44933a49f2ea89268b1bf39aa",
+          revision: "62dbcfe7bfe0ca1cf5f21bd7859d1476",
         },
         {
           url: "img/portraits/2.png",
@@ -178,7 +178,7 @@ define(["./workbox-7e688afb"], function (e) {
         },
         {
           url: "img/portraits/default.png",
-          revision: "ac2ed17447261998a702999ab5ebf554",
+          revision: "17f5fe97af43746dc8411b1dc942cfed",
         },
         {
           url: "img/pwa/badges/android_en.png",
@@ -236,16 +236,144 @@ define(["./workbox-7e688afb"], function (e) {
           url: "img/pwa/icons/resmos_icon_96x96.png",
           revision: "e757419e64ec452c7a60311449c36487",
         },
-        { url: "index.html", revision: "4ceef187b69b6be7e75455de0efa7fd2" },
+        {
+          url: "img/pwa/screenshots/english/computer_end_en.png",
+          revision: "a426747472de22116bc2df2e79297475",
+        },
+        {
+          url: "img/pwa/screenshots/english/computer_half_life_en.png",
+          revision: "3ef1682be665136a63bc830b7b2095cf",
+        },
+        {
+          url: "img/pwa/screenshots/english/computer_low_life_en.png",
+          revision: "89a4d4dc9f58b026b8f27a9a505e0036",
+        },
+        {
+          url: "img/pwa/screenshots/english/computer_start_en.png",
+          revision: "86c9f6cd4fcbf554f7f3eeaca15c6734",
+        },
+        {
+          url: "img/pwa/screenshots/english/mobile_end_en.png",
+          revision: "900580934711f5c814ee4ea4eda92a93",
+        },
+        {
+          url: "img/pwa/screenshots/english/mobile_half_life_en.png",
+          revision: "732768c6872414e86d811455a0faeb6a",
+        },
+        {
+          url: "img/pwa/screenshots/english/mobile_low_life_en.png",
+          revision: "75f8117c6640381ae071fd0becd699b9",
+        },
+        {
+          url: "img/pwa/screenshots/english/mobile_start_en.png",
+          revision: "3935b1af34aadf0c18c4c51422c09026",
+        },
+        {
+          url: "img/pwa/screenshots/english/tablet_10inch_end_en.png",
+          revision: "193244992c6ece6f8361f5dad2d93607",
+        },
+        {
+          url: "img/pwa/screenshots/english/tablet_10inch_half_life_en.png",
+          revision: "7f03de4c5880bd5a9c88b03b9e7f642b",
+        },
+        {
+          url: "img/pwa/screenshots/english/tablet_10inch_low_life_en.png",
+          revision: "4502a37f2e3893fdef70edcdbcd80719",
+        },
+        {
+          url: "img/pwa/screenshots/english/tablet_10inch_start_en.png",
+          revision: "ccd3d285186c094365e4e1d9a52c3165",
+        },
+        {
+          url: "img/pwa/screenshots/english/tablet_7inch_end_en.png",
+          revision: "1d03ef1aa27572f1672dc1da7fb6ce81",
+        },
+        {
+          url: "img/pwa/screenshots/english/tablet_7inch_half_life_en.png",
+          revision: "c865de4796fa6682370367d1a84e13a2",
+        },
+        {
+          url: "img/pwa/screenshots/english/tablet_7inch_low_life_en.png",
+          revision: "abdcb386fce14a8569229b03021dbbe9",
+        },
+        {
+          url: "img/pwa/screenshots/english/tablet_7inch_start_en.png",
+          revision: "90ee506c533bd5ba576e93dafce7c503",
+        },
+        {
+          url: "img/pwa/screenshots/spanish/computer_end_spa.png",
+          revision: "78be2588458e55fbeacf9e480219d4ef",
+        },
+        {
+          url: "img/pwa/screenshots/spanish/computer_half_life_spa.png",
+          revision: "a6d620221bbc300eaec50839b414f786",
+        },
+        {
+          url: "img/pwa/screenshots/spanish/computer_low_life_spa.png",
+          revision: "e28b97268c8d303fe90212093a596a33",
+        },
+        {
+          url: "img/pwa/screenshots/spanish/computer_start_spa.png",
+          revision: "b092850f7c4c7a45b319395fc94ce142",
+        },
+        {
+          url: "img/pwa/screenshots/spanish/mobile_end_spa.png",
+          revision: "21541ae5b0215d0d08da5fb9568991d6",
+        },
+        {
+          url: "img/pwa/screenshots/spanish/mobile_half_life_spa.png",
+          revision: "777f872e872b685bd0780a739065c2e6",
+        },
+        {
+          url: "img/pwa/screenshots/spanish/mobile_low_life_spa.png",
+          revision: "b1502e3752c71d0850d360c5d3190293",
+        },
+        {
+          url: "img/pwa/screenshots/spanish/mobile_start_spa.png",
+          revision: "3d83f4c3252cefcd10d7c8614384d1f2",
+        },
+        {
+          url: "img/pwa/screenshots/spanish/tablet_10inch_end_spa.png",
+          revision: "1fa3fd20666067b1e63fa18c7470a4c7",
+        },
+        {
+          url: "img/pwa/screenshots/spanish/tablet_10inch_half_life_spa.png",
+          revision: "18911c42b9715e4cfae2e146267ac320",
+        },
+        {
+          url: "img/pwa/screenshots/spanish/tablet_10inch_low_life_spa.png",
+          revision: "028d9f7f0d4ea18aaa8916e21f9b56f5",
+        },
+        {
+          url: "img/pwa/screenshots/spanish/tablet_10inch_start_spa.png",
+          revision: "c13c3bd44096b27db90fe12901d63f65",
+        },
+        {
+          url: "img/pwa/screenshots/spanish/tablet_7inch_end_spa.png",
+          revision: "9a1698d77cf2fc6b63f1ccf7212e03fa",
+        },
+        {
+          url: "img/pwa/screenshots/spanish/tablet_7inch_half_life_spa.png",
+          revision: "d39945fc710786130bab454a7e63f85d",
+        },
+        {
+          url: "img/pwa/screenshots/spanish/tablet_7inch_low_life_spa.png",
+          revision: "ad8d9e74a168e42823e665c1c8b4b2bd",
+        },
+        {
+          url: "img/pwa/screenshots/spanish/tablet_7inch_start_spa.png",
+          revision: "ad2ac0dd74617b8eeeb867e9f9662cac",
+        },
+        { url: "index.html", revision: "ba8347cf7218f8c0374947e4566d2c5c" },
         { url: "js/main.js", revision: "b7f80d995d9cce2598d1624a911ab093" },
         { url: "js/model.js", revision: "cc6373dc6f269fc94d94ea331ab7b691" },
         { url: "js/utility.js", revision: "7436c90cc6fa9c3b980cd1763514ab6b" },
         {
           url: "json/languages.js",
-          revision: "08f6f1c8cb268bf3f50067ea0417aed7",
+          revision: "155d664b1734d8d2952daa9275bba6bf",
         },
-        { url: "manifest.json", revision: "6b0b3d2606abd78ea571331e393795a9" },
-        { url: "README.md", revision: "33bb35f91dc72d50e42d1392204f1389" },
+        { url: "manifest.json", revision: "4b7614bfb4134e79a3044816f756f33e" },
+        { url: "README.md", revision: "02fb5aa72241a2455f6299ca6affa612" },
       ],
       { ignoreURLParametersMatching: [/^utm_/, /^fbclid$/] }
     );
