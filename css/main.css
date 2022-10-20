@@ -297,12 +297,12 @@ img[src=""] {
   margin: 10.6vh 0 0 0;
 }
 
-.icon-table {
-  width: 10vh;
-}
-
 .middle {
   height: 30%;
+}
+
+.icon-table {
+  width: 10vh;
 }
 
 .item-table {

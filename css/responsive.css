@@ -18,3 +18,14 @@
     background-position: 153vh 0.3vh;
   }
 }
+
+@media screen and (max-width: 375px) and (max-height: 667px) {
+  .icon-table {
+    width: 9vh;
+  }
+
+  .item-table {
+    width: 10vh;
+    height: 10vh;
+  }
+}
