@@ -23,8 +23,8 @@ if (!self.define) {
     if (i[c]) return;
     let r = {};
     const o = (e) => s(e, c),
-      b = { module: { uri: c }, exports: r, require: o };
-    i[c] = Promise.all(n.map((e) => b[e] || o(e))).then((e) => (a(...e), r));
+      f = { module: { uri: c }, exports: r, require: o };
+    i[c] = Promise.all(n.map((e) => f[e] || o(e))).then((e) => (a(...e), r));
   };
 }
 define(["./workbox-7e688afb"], function (e) {
@@ -365,7 +365,7 @@ define(["./workbox-7e688afb"], function (e) {
           revision: "56dbb93cdb5c4b197768b1c5b4638108",
         },
         { url: "index.html", revision: "ba8347cf7218f8c0374947e4566d2c5c" },
-        { url: "js/main.js", revision: "b7f80d995d9cce2598d1624a911ab093" },
+        { url: "js/main.js", revision: "b46cf6fedf401af4710f5274f4c08dd9" },
         { url: "js/model.js", revision: "cc6373dc6f269fc94d94ea331ab7b691" },
         { url: "js/utility.js", revision: "7436c90cc6fa9c3b980cd1763514ab6b" },
         {
