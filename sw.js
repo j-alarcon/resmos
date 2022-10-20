@@ -23,8 +23,8 @@ if (!self.define) {
     if (i[c]) return;
     let r = {};
     const o = (e) => s(e, c),
-      f = { module: { uri: c }, exports: r, require: o };
-    i[c] = Promise.all(n.map((e) => f[e] || o(e))).then((e) => (a(...e), r));
+      b = { module: { uri: c }, exports: r, require: o };
+    i[c] = Promise.all(n.map((e) => b[e] || o(e))).then((e) => (a(...e), r));
   };
 }
 define(["./workbox-7e688afb"], function (e) {
@@ -53,7 +53,7 @@ define(["./workbox-7e688afb"], function (e) {
           revision: "4cbf23425b05f1ef26b48dd35f9f0b63",
         },
         { url: "css/fonts.css", revision: "871492272a48d9a3f675be608f7756aa" },
-        { url: "css/main.css", revision: "49a18f1f9c368daed0070ce13c8df673" },
+        { url: "css/main.css", revision: "3e6c8441bfb497dbaec8b8b7493d421c" },
         {
           url: "css/position.css",
           revision: "7968b10eb3705c16ded9393dc2afe131",
@@ -61,7 +61,7 @@ define(["./workbox-7e688afb"], function (e) {
         { url: "css/reset.css", revision: "9ebd1ac99acfdd20a3f66d641bd93be3" },
         {
           url: "css/responsive.css",
-          revision: "a276728c1e9107233f19cc25ba461553",
+          revision: "1a6e49d925b0149789a59b63a34582ee",
         },
         {
           url: "fonts/poppins.ttf",
@@ -78,7 +78,7 @@ define(["./workbox-7e688afb"], function (e) {
         },
         {
           url: "img/background/space.png",
-          revision: "571738c9bdf77c7fd877bdddc0e035d5",
+          revision: "8fec41228049badfd203484031f635c3",
         },
         {
           url: "img/favicon.png",
@@ -238,131 +238,131 @@ define(["./workbox-7e688afb"], function (e) {
         },
         {
           url: "img/pwa/screenshots/english/computer_end_en.png",
-          revision: "a426747472de22116bc2df2e79297475",
+          revision: "ad7b68c0b6988b4e38fd4bee5b27c782",
         },
         {
           url: "img/pwa/screenshots/english/computer_half_life_en.png",
-          revision: "3ef1682be665136a63bc830b7b2095cf",
+          revision: "4ef2aa32d4b60f9102b6080b415070b7",
         },
         {
           url: "img/pwa/screenshots/english/computer_low_life_en.png",
-          revision: "89a4d4dc9f58b026b8f27a9a505e0036",
+          revision: "7057af236c6a2c8d24248160d8ed2222",
         },
         {
           url: "img/pwa/screenshots/english/computer_start_en.png",
-          revision: "86c9f6cd4fcbf554f7f3eeaca15c6734",
+          revision: "715a91073b6d93f08b91fc1087c217d2",
         },
         {
           url: "img/pwa/screenshots/english/mobile_end_en.png",
-          revision: "900580934711f5c814ee4ea4eda92a93",
+          revision: "22d08e1155862879fc5fe72feea50818",
         },
         {
           url: "img/pwa/screenshots/english/mobile_half_life_en.png",
-          revision: "732768c6872414e86d811455a0faeb6a",
+          revision: "bd91440259b729f979527bdda9c5d3a7",
         },
         {
           url: "img/pwa/screenshots/english/mobile_low_life_en.png",
-          revision: "75f8117c6640381ae071fd0becd699b9",
+          revision: "4e4947c00abcf6423c826c9492cd6102",
         },
         {
           url: "img/pwa/screenshots/english/mobile_start_en.png",
-          revision: "3935b1af34aadf0c18c4c51422c09026",
+          revision: "c21840ab2263c8850fc3155d7af11a85",
         },
         {
           url: "img/pwa/screenshots/english/tablet_10inch_end_en.png",
-          revision: "193244992c6ece6f8361f5dad2d93607",
+          revision: "f6f5c5c695315deb5e1ede1671632e9b",
         },
         {
           url: "img/pwa/screenshots/english/tablet_10inch_half_life_en.png",
-          revision: "7f03de4c5880bd5a9c88b03b9e7f642b",
+          revision: "660ac635eec0eb497c31f826b35d6f74",
         },
         {
           url: "img/pwa/screenshots/english/tablet_10inch_low_life_en.png",
-          revision: "4502a37f2e3893fdef70edcdbcd80719",
+          revision: "348f79a5f74bb5351e049900ed2cf02b",
         },
         {
           url: "img/pwa/screenshots/english/tablet_10inch_start_en.png",
-          revision: "ccd3d285186c094365e4e1d9a52c3165",
+          revision: "f40377122d29e7a79555b530dcb3fdad",
         },
         {
           url: "img/pwa/screenshots/english/tablet_7inch_end_en.png",
-          revision: "1d03ef1aa27572f1672dc1da7fb6ce81",
+          revision: "46c250d33e6fee06e1c798a3007a2605",
         },
         {
           url: "img/pwa/screenshots/english/tablet_7inch_half_life_en.png",
-          revision: "c865de4796fa6682370367d1a84e13a2",
+          revision: "40bee1420840c0bad886ed7aa74ad5e8",
         },
         {
           url: "img/pwa/screenshots/english/tablet_7inch_low_life_en.png",
-          revision: "abdcb386fce14a8569229b03021dbbe9",
+          revision: "2f7b35ac4fae6e8a2251328409e71548",
         },
         {
           url: "img/pwa/screenshots/english/tablet_7inch_start_en.png",
-          revision: "90ee506c533bd5ba576e93dafce7c503",
+          revision: "fd45712c991eb8bf5e1690ffbed14e81",
         },
         {
           url: "img/pwa/screenshots/spanish/computer_end_spa.png",
-          revision: "78be2588458e55fbeacf9e480219d4ef",
+          revision: "fa5d3c0c582d151fd1a0b5a31f725bfa",
         },
         {
           url: "img/pwa/screenshots/spanish/computer_half_life_spa.png",
-          revision: "a6d620221bbc300eaec50839b414f786",
+          revision: "d01316012f5c89c02b2e3093d98b6662",
         },
         {
           url: "img/pwa/screenshots/spanish/computer_low_life_spa.png",
-          revision: "e28b97268c8d303fe90212093a596a33",
+          revision: "19ab6e7da2eaef0872050a806d5424ab",
         },
         {
           url: "img/pwa/screenshots/spanish/computer_start_spa.png",
-          revision: "b092850f7c4c7a45b319395fc94ce142",
+          revision: "4a70eae5113d9cda0bb1b033f21a3e4b",
         },
         {
           url: "img/pwa/screenshots/spanish/mobile_end_spa.png",
-          revision: "21541ae5b0215d0d08da5fb9568991d6",
+          revision: "d0f55df60ababde90e9a47d8cec2df17",
         },
         {
           url: "img/pwa/screenshots/spanish/mobile_half_life_spa.png",
-          revision: "777f872e872b685bd0780a739065c2e6",
+          revision: "161e894852ead4c7e0a5327b94b7bb19",
         },
         {
           url: "img/pwa/screenshots/spanish/mobile_low_life_spa.png",
-          revision: "b1502e3752c71d0850d360c5d3190293",
+          revision: "8120fb0e88cec4185752052b464a64a2",
         },
         {
           url: "img/pwa/screenshots/spanish/mobile_start_spa.png",
-          revision: "3d83f4c3252cefcd10d7c8614384d1f2",
+          revision: "5732eab13ec1981cedebd319edd27d0c",
         },
         {
           url: "img/pwa/screenshots/spanish/tablet_10inch_end_spa.png",
-          revision: "1fa3fd20666067b1e63fa18c7470a4c7",
+          revision: "a2375c352e7aa5b1d12b0d1bad462e77",
         },
         {
           url: "img/pwa/screenshots/spanish/tablet_10inch_half_life_spa.png",
-          revision: "18911c42b9715e4cfae2e146267ac320",
+          revision: "1b82ab2b208d3d13b56b0e5663aa0dfe",
         },
         {
           url: "img/pwa/screenshots/spanish/tablet_10inch_low_life_spa.png",
-          revision: "028d9f7f0d4ea18aaa8916e21f9b56f5",
+          revision: "db8c858d83fc43a0151920919c82e533",
         },
         {
           url: "img/pwa/screenshots/spanish/tablet_10inch_start_spa.png",
-          revision: "c13c3bd44096b27db90fe12901d63f65",
+          revision: "9228cf5670f0845b04f415a1f85b0939",
         },
         {
           url: "img/pwa/screenshots/spanish/tablet_7inch_end_spa.png",
-          revision: "9a1698d77cf2fc6b63f1ccf7212e03fa",
+          revision: "2bc49ee0f8ced5f2f1ea3e9d354715ae",
         },
         {
           url: "img/pwa/screenshots/spanish/tablet_7inch_half_life_spa.png",
-          revision: "d39945fc710786130bab454a7e63f85d",
+          revision: "a9bce6bccdd7303ce7cba22a92960cf0",
         },
         {
           url: "img/pwa/screenshots/spanish/tablet_7inch_low_life_spa.png",
-          revision: "ad8d9e74a168e42823e665c1c8b4b2bd",
+          revision: "41baf75485075d3c030df5d4a392d3da",
         },
         {
           url: "img/pwa/screenshots/spanish/tablet_7inch_start_spa.png",
-          revision: "ad2ac0dd74617b8eeeb867e9f9662cac",
+          revision: "56dbb93cdb5c4b197768b1c5b4638108",
         },
         { url: "index.html", revision: "ba8347cf7218f8c0374947e4566d2c5c" },
         { url: "js/main.js", revision: "b7f80d995d9cce2598d1624a911ab093" },
