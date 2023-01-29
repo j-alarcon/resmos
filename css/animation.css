@@ -1,5 +1,5 @@
 /* https://yarduon.com */
-@keyframes blinkBorder {
+/* @keyframes blinkBorder {
   0% {
     outline-color: white;
   }
@@ -9,9 +9,9 @@
   100% {
     outline-color: white;
   }
-}
+} */
 
-@keyframes blinkColors {
+/* @keyframes blinkColors {
   0% {
     border-color: #e25822;
   }
@@ -45,9 +45,9 @@
   100% {
     border-color: #e25822;
   }
-}
+} */
 
-@keyframes infiniteBackground {
+/* @keyframes infiniteBackground {
   from {
     background-position: 0;
   }
@@ -56,3 +56,4 @@
     background-position: 180vh;
   }
 }
+ */

@@ -164,6 +164,7 @@ img[src=""] {
 }
 
 .unselected {
+  outline-color: white;
   animation: blinkBorder 3s linear infinite;
 }
 
