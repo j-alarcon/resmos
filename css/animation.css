@@ -1,13 +1,11 @@
 /* https://yarduon.com */
 @keyframes blinkBorder {
-  0% {
+  0%,
+  100% {
     outline-color: white;
   }
   50% {
     outline-color: #f28f19;
-  }
-  100% {
-    outline-color: white;
   }
 }
 
