@@ -23,8 +23,8 @@ if (!self.define) {
     if (i[c]) return;
     let r = {};
     const o = (e) => s(e, c),
-      d = { module: { uri: c }, exports: r, require: o };
-    i[c] = Promise.all(n.map((e) => d[e] || o(e))).then((e) => (a(...e), r));
+      b = { module: { uri: c }, exports: r, require: o };
+    i[c] = Promise.all(n.map((e) => b[e] || o(e))).then((e) => (a(...e), r));
   };
 }
 define(["./workbox-7e688afb"], function (e) {
@@ -364,7 +364,7 @@ define(["./workbox-7e688afb"], function (e) {
           url: "img/pwa/screenshots/spanish/tablet_7inch_start_spa.png",
           revision: "cf9e9b9e08f943d4513c335552b11fbf",
         },
-        { url: "index.html", revision: "07d9d73c9b08218acdc6c2cca9f72c1c" },
+        { url: "index.html", revision: "77b5f2de68bfc9b076eb8217f0193f43" },
         { url: "js/main.js", revision: "0062c503b8476467169f243ceb96a783" },
         { url: "js/model.js", revision: "cc6373dc6f269fc94d94ea331ab7b691" },
         { url: "js/utility.js", revision: "7436c90cc6fa9c3b980cd1763514ab6b" },
