@@ -86,6 +86,7 @@ You can check all advantages and weaknesses, as well as the percentages of life 
     </tr>
 </table>
 
+</br>
 <strong>Instructions:</strong> Maybe you are on a lazy day, or you are lost in this weird website because you don't know how to use it, don't worry, I understand.
 There are two ways to see my work:
 
