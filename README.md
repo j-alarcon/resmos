@@ -21,7 +21,7 @@ They all have weaknesses to other reactions and you can't pick the same one cons
 You can check all advantages and weaknesses, as well as the percentages of life you would lose or cause in this table:
 
 <table>
-    <tr>
+    <tr align="center">
         <td></td>
         <td>💧</td>
         <td>♨💨</td>
@@ -30,7 +30,7 @@ You can check all advantages and weaknesses, as well as the percentages of life 
         <td>☃️🤖</td>
         <td>🌀</td>
     </tr>
-    <tr>
+    <tr align="center">
         <td>💧</td>
         <td>3%</td>
         <td>18%</td>
@@ -39,7 +39,7 @@ You can check all advantages and weaknesses, as well as the percentages of life 
         <td>18%</td>
         <td>6%</td>
     </tr>
-    <tr>
+    <tr align="center">
         <td>♨💨</td>
         <td>15%</td>
         <td>3%</td>
@@ -48,7 +48,7 @@ You can check all advantages and weaknesses, as well as the percentages of life 
         <td>15%</td>
         <td>6%</td>
     </tr>
-    <tr>
+    <tr align="center">
         <td>💥</td>
         <td>15%</td>
         <td>6%</td>
@@ -57,7 +57,7 @@ You can check all advantages and weaknesses, as well as the percentages of life 
         <td>6%</td>
         <td>6%</td>
     </tr>
-    <tr>
+    <tr align="center">
         <td>🌨️</td>
         <td>15%</td>
         <td>15%</td>
@@ -66,7 +66,7 @@ You can check all advantages and weaknesses, as well as the percentages of life 
         <td>6%</td>
         <td>6%</td>
     </tr>
-    <tr>
+    <tr align="center">
         <td>☃️🤖</td>
         <td>6%</td>
         <td>6%</td>
@@ -75,7 +75,7 @@ You can check all advantages and weaknesses, as well as the percentages of life 
         <td>3%</td>
         <td>6%</td>
     </tr>
-    <tr>
+    <tr align="center">
         <td>🌀</td>
         <td>6%</td>
         <td>6%</td>
