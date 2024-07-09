@@ -20,7 +20,7 @@ They all have weaknesses to other reactions and you can't pick the same one cons
 
 You can check all advantages and weaknesses, as well as the percentages of life you would lose or cause in this table:
 
-<table>
+<table align="center">
     <tr align="center">
         <td></td>
         <td>💧</td>
