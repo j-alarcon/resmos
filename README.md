@@ -100,15 +100,11 @@ There are two ways to see my work:
     </br>
     <li>
         <em>I would like to have it on my device:</em>
-        <ol>
-            </br>
-            <a href="https://apps.microsoft.com/store/detail/resmos/9N2V96R46H8Q?hl=en">
-                <img alt="Windows badge" src="./img/pwa/badges/windows_en.png" />
-            </a>
-            <a href="https://play.google.com/store/apps/details?id=reactions.game.twa&hl=en">
-                <img alt="Android badge" src="./img/pwa/badges/android_en.png" />
-            </a> 
-        </ol>
     </li>
 </ul>
+
+[<img alt="Windows badge" src="./img/pwa/badges/windows_en.png" width="190px" height="57px">](https://apps.microsoft.com/store/detail/resmos/9N2V96R46H8Q?hl=en)&nbsp;
+[<img alt="Android badge" src="./img/pwa/badges/android_en.png" width="190px" height="57px">](https://play.google.com/store/apps/details?id=reactions.game.twa&hl=en)&nbsp;
+
+</br>
 <strong>License:</strong> You are not allowed to modify, use my code or resources for your own projects without my consent, even if it's everything is public. If you do not follow the preceding, I might take legal actions against you.
