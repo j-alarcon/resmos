@@ -91,6 +91,7 @@ You can check all advantages and weaknesses, as well as the percentages of life 
 There are two ways to see my work:
 
 <ul>
+    </br>
     <li>
         <em>I want to see it right now:</em>
         <ol>
