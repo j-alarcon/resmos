@@ -44,13 +44,3 @@
     border-color: #e25822;
   }
 }
-
-@keyframes infiniteBackground {
-  from {
-    background-position: 0;
-  }
-
-  to {
-    background-position: 180vh;
-  }
-}
