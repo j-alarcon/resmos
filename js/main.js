@@ -20,7 +20,7 @@ if ("serviceWorker" in navigator) {
 }
 
 // Update only when new version is finished
-const currentVersion = 1.4;
+const currentVersion = 1.5;
 
 // All items with text to be translated
 const itemsTranslate = Array.from(document.getElementsByClassName("translate"));

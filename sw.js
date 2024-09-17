@@ -23,11 +23,11 @@ if (!self.define) {
     if (i[c]) return;
     let r = {};
     const o = (e) => s(e, c),
-      b = { module: { uri: c }, exports: r, require: o };
-    i[c] = Promise.all(n.map((e) => b[e] || o(e))).then((e) => (a(...e), r));
+      d = { module: { uri: c }, exports: r, require: o };
+    i[c] = Promise.all(n.map((e) => d[e] || o(e))).then((e) => (a(...e), r));
   };
 }
-define(["./workbox-7e688afb"], function (e) {
+define(["./workbox-168f09f0"], function (e) {
   "use strict";
   self.addEventListener("message", (e) => {
     e.data && "SKIP_WAITING" === e.data.type && self.skipWaiting();
@@ -50,10 +50,10 @@ define(["./workbox-7e688afb"], function (e) {
         },
         {
           url: "css/animation.css",
-          revision: "9b9bc3414cb60b0ab765ec54c604532e",
+          revision: "95ca74e41f0bf63c31b750b02df9eb05",
         },
         { url: "css/fonts.css", revision: "871492272a48d9a3f675be608f7756aa" },
-        { url: "css/main.css", revision: "3e6c8441bfb497dbaec8b8b7493d421c" },
+        { url: "css/main.css", revision: "53a07e692163ba4825d1977a60ca9ec5" },
         {
           url: "css/position.css",
           revision: "7968b10eb3705c16ded9393dc2afe131",
@@ -70,11 +70,11 @@ define(["./workbox-7e688afb"], function (e) {
         { url: "FUNDING.yml", revision: "c21af649c611bd5a3389bd3401dd5c71" },
         {
           url: "img/background/panel_bottom.svg",
-          revision: "8e3e8b257cf32dd38b6c4860c8bb3410",
+          revision: "2698e5add1ac6fbf064ac8c7ed66ce99",
         },
         {
           url: "img/background/panel_top.svg",
-          revision: "c0ee82e6dc6e1f1dc928df6bbd896a99",
+          revision: "f637fac9f9e8dd2dc08e26ff57e8b1ca",
         },
         {
           url: "img/background/space.png",
@@ -114,7 +114,7 @@ define(["./workbox-7e688afb"], function (e) {
         },
         {
           url: "img/icons/reset.svg",
-          revision: "d98dceb4eefcb90839dea47e55fc3ea6",
+          revision: "eb64475da4bcecd39edc67636c0ea3ad",
         },
         {
           url: "img/icons/snowbot.png",
@@ -364,16 +364,16 @@ define(["./workbox-7e688afb"], function (e) {
           url: "img/pwa/screenshots/spanish/tablet_7inch_start_spa.png",
           revision: "cf9e9b9e08f943d4513c335552b11fbf",
         },
-        { url: "index.html", revision: "77b5f2de68bfc9b076eb8217f0193f43" },
-        { url: "js/main.js", revision: "0062c503b8476467169f243ceb96a783" },
+        { url: "index.html", revision: "c1c16c8c72aec3ec6d3bd0cca46bff8c" },
+        { url: "js/main.js", revision: "daa71a96fa10014e234aeec51e018c54" },
         { url: "js/model.js", revision: "cc6373dc6f269fc94d94ea331ab7b691" },
         { url: "js/utility.js", revision: "7436c90cc6fa9c3b980cd1763514ab6b" },
         {
           url: "json/languages.js",
-          revision: "a6ce9ee3784c3ae2648597000b05408e",
+          revision: "1feb666769ac521a8e52c93428ca1487",
         },
-        { url: "manifest.json", revision: "8a0f28618bfb4d1c5e3f913baf506220" },
-        { url: "README.md", revision: "02fb5aa72241a2455f6299ca6affa612" },
+        { url: "manifest.json", revision: "ceedfc479450a97528ee1e8efcf121b5" },
+        { url: "README.md", revision: "a15f093a63f9eced7b7b36f67e79ce9a" },
       ],
       { ignoreURLParametersMatching: [/^utm_/, /^fbclid$/] }
     );
