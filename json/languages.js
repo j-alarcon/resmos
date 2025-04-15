@@ -1,6 +1,6 @@
 // https://yarduon.com
 export default {
-  es: ["FÁCIL", "NORMAL", "DIFÍCIL", "Tú", "Versión 1.5", "17/09/2024"],
-  fr: ["FACILE", "NORMAL", "DIFFICILE", "Vous", "Version 1.5", "17/09/2024"],
-  de: ["LEICHT", "NORMAL", "SCHWIERIG", "Sie", "Version 1.5", "2024/09/17"],
+  es: ["FÁCIL", "NORMAL", "DIFÍCIL", "Tú", "Versión 1.6", "15/04/2025"],
+  fr: ["FACILE", "NORMAL", "DIFFICILE", "Vous", "Version 1.6", "15/04/2025"],
+  de: ["LEICHT", "NORMAL", "SCHWIERIG", "Sie", "Version 1.6", "2025/04/15"],
 };

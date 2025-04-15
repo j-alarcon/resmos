@@ -27,7 +27,7 @@ if (!self.define) {
     i[c] = Promise.all(n.map((e) => d[e] || o(e))).then((e) => (a(...e), r));
   };
 }
-define(["./workbox-168f09f0"], function (e) {
+define(["./workbox-79256b10"], function (e) {
   "use strict";
   self.addEventListener("message", (e) => {
     e.data && "SKIP_WAITING" === e.data.type && self.skipWaiting();
@@ -364,15 +364,15 @@ define(["./workbox-168f09f0"], function (e) {
           url: "img/pwa/screenshots/spanish/tablet_7inch_start_spa.png",
           revision: "cf9e9b9e08f943d4513c335552b11fbf",
         },
-        { url: "index.html", revision: "c1c16c8c72aec3ec6d3bd0cca46bff8c" },
-        { url: "js/main.js", revision: "daa71a96fa10014e234aeec51e018c54" },
+        { url: "index.html", revision: "4910c94a46cf5409ee73c2d7f7c52055" },
+        { url: "js/main.js", revision: "959f0e9ac79f99a5f041d2c68a882c66" },
         { url: "js/model.js", revision: "cc6373dc6f269fc94d94ea331ab7b691" },
         { url: "js/utility.js", revision: "7436c90cc6fa9c3b980cd1763514ab6b" },
         {
           url: "json/languages.js",
-          revision: "1feb666769ac521a8e52c93428ca1487",
+          revision: "dbc73d295f81d42bcc5dbe28cfb2b738",
         },
-        { url: "manifest.json", revision: "ceedfc479450a97528ee1e8efcf121b5" },
+        { url: "manifest.json", revision: "3b29d90c764f1b5602f15800c376fcef" },
         { url: "README.md", revision: "a15f093a63f9eced7b7b36f67e79ce9a" },
       ],
       { ignoreURLParametersMatching: [/^utm_/, /^fbclid$/] }
