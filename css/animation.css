@@ -1,0 +1,46 @@
+/* https://yarduon.com */
+@keyframes blinkBorder {
+  0%,
+  100% {
+    outline-color: white;
+  }
+  50% {
+    outline-color: #f28f19;
+  }
+}
+
+@keyframes blinkColors {
+  0% {
+    border-color: #e25822;
+  }
+  10% {
+    border-color: #86d6d8;
+  }
+  20% {
+    border-color: #00a86b;
+  }
+  30% {
+    border-color: rgb(162, 170, 182);
+  }
+  40% {
+    border-color: #780a02;
+  }
+  50% {
+    border-color: #65c460;
+  }
+  60% {
+    border-color: #09204a;
+  }
+  70% {
+    border-color: #0092d8;
+  }
+  80% {
+    border-color: #104a5b;
+  }
+  90% {
+    border-color: #ee4a48;
+  }
+  100% {
+    border-color: #e25822;
+  }
+}

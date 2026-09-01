@@ -1,0 +1,97 @@
+/* https://yarduon.com */
+.difficulties,
+.container-hp {
+  z-index: 3;
+}
+
+.minus-percentage,
+#cast-reaction,
+.life,
+.lost-life {
+  z-index: 2;
+}
+
+.photo,
+.selections,
+.footer-container {
+  z-index: 1;
+}
+
+.footer-container,
+.bottom-ui {
+  bottom: 0;
+}
+
+.flex {
+  display: flex;
+}
+
+.direction-column {
+  flex-direction: column;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-start {
+  justify-content: flex-start;
+}
+
+.justify-end {
+  justify-content: flex-end;
+}
+
+.justify-space-around {
+  justify-content: space-around;
+}
+
+.justify-space-between {
+  justify-content: space-between;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+
+.checkbox {
+  z-index: -1;
+}
+
+.submenu {
+  z-index: 0;
+}
+
+#left-submenu {
+  right: 15.8vh;
+  top: 5vh;
+}
+
+#right-submenu {
+  left: 15.8vh;
+  top: 8vh;
+}
+
+.players-container {
+  bottom: 4vh;
+}
+
+#cast-reaction {
+  bottom: 6.3vh;
+}
+
+.container-hp {
+  right: 13.2vh;
+}
+
+.footer-container {
+  right: 0;
+}

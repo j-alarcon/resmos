@@ -1,0 +1,375 @@
+/* https://yarduon.com */
+.icon-select,
+.container-hp {
+  width: 3.8vh;
+}
+
+.player-ui,
+#right-submenu span {
+  height: 35%;
+}
+
+.selections,
+.footer-container {
+  height: 7vh;
+}
+
+.difficulties,
+.container-hp,
+.player-name {
+  font-size: 1.9vh;
+}
+
+.invisible,
+img[src=""] {
+  opacity: 0;
+}
+
+.item-submenu-left:hover,
+#right-submenu span:hover {
+  background-color: #f0e6e5;
+}
+
+.max-width {
+  width: 100%;
+}
+
+.max-height {
+  height: 100%;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.grayscale {
+  filter: grayscale();
+}
+
+.no-filter {
+  filter: none;
+}
+
+.background-black {
+  background-color: #292929ff;
+}
+
+.background-space {
+  background: url("../img/background/space.png") 0vh/195vh;
+}
+
+.background-grey {
+  background-color: #30303b;
+}
+
+.background-darkblue {
+  background-color: #003b59;
+}
+
+.background-green {
+  background-color: green;
+}
+
+.background-red {
+  background-color: #c23a22;
+}
+
+.background-crimson {
+  background-color: #b9182e;
+}
+
+.cast-reaction {
+  background: url("../img/logos/resmos.png") no-repeat center/8.9vh;
+}
+
+.background-white {
+  background-color: white;
+}
+
+.easy {
+  background-color: #24852c;
+}
+
+.normal {
+  background-color: #b35f28;
+}
+
+.hard {
+  background-color: #bd3a2e;
+}
+
+.selected,
+.background-space {
+  background-color: #37425b;
+}
+
+.outline {
+  outline: 0.4vh solid;
+}
+
+.big-outline {
+  outline: 0.6vh solid;
+}
+
+.outline-white {
+  outline-color: white;
+}
+
+.outline-grey {
+  outline-color: #5c5c5c;
+}
+
+.block {
+  outline-color: #ea3c53;
+}
+
+.fire {
+  outline-color: #e25822;
+}
+
+.ice {
+  outline-color: #86d6d8;
+}
+
+.wind {
+  outline-color: #00a86b;
+}
+
+.machine {
+  outline-color: rgb(162, 170, 182);
+}
+
+.explosion {
+  outline-color: #780a02;
+}
+
+.snowbot {
+  outline-color: #65c460;
+}
+
+.blizzard {
+  outline-color: #09204a;
+}
+
+.water {
+  outline-color: #0092d8;
+}
+
+.hurricane {
+  outline-color: #104a5b;
+}
+
+.heatWave {
+  outline-color: #ee4a48;
+}
+
+.unselected {
+  animation: blinkBorder 3s linear infinite;
+}
+
+.active {
+  animation: blinkColors 13s linear infinite;
+}
+
+.infinite {
+  animation: infiniteBackground 60s linear infinite;
+}
+
+.text-white {
+  color: white;
+}
+
+.text-shadow {
+  text-shadow: 0.1vh 0.1vh black;
+}
+
+.poppins {
+  font-family: "Poppins";
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.border-white {
+  border: 0.6vh solid white;
+}
+
+.border-space {
+  border: 0.6vh solid #37425b;
+}
+
+.no-border {
+  border: none;
+}
+
+.reverse {
+  transform: rotate(180deg);
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.hide {
+  display: none;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.difficulties {
+  height: 3vh;
+}
+
+.difficulty {
+  width: 33.34%;
+}
+
+.difficulty:hover {
+  opacity: 0.9;
+}
+
+.icon-select {
+  height: 3.8vh;
+  filter: drop-shadow(0 0 0.2vh #000000);
+}
+
+.icon-menu {
+  width: 3.5vh;
+  height: 3.5vh;
+}
+
+.top-ui {
+  background: url("./../img/background/panel_top.svg") repeat-x center;
+}
+
+.bottom-ui {
+  background: url("./../img/background/panel_bottom.svg") repeat-x center;
+}
+
+.player-ui {
+  background-size: 217vh;
+}
+
+.life {
+  width: 1.3vh;
+  margin: 0.5vh 0 0 0.5vh;
+  height: 68%;
+}
+
+.lost-life {
+  transition: height 1s;
+  height: 0;
+}
+
+.container-hp {
+  height: 3.1vh;
+  margin: 9.9vh -0.4vh 0 0;
+  border-top-right-radius: 0.8vh;
+}
+
+.minus-percentage {
+  font-size: 1.7vh;
+  padding: 0.6vh;
+  margin: 0.5vh 0 0 2.2vh;
+}
+
+#computer-photo {
+  background: no-repeat center/cover;
+}
+
+#player-photo {
+  background: url("./../img/portraits/default.png") no-repeat center/cover;
+}
+
+.photo {
+  width: 17.5vh;
+  height: 14vh;
+  border-top-right-radius: 4.5vh;
+}
+
+.player-name {
+  width: 101%;
+  height: 2.8vh;
+  padding: 1vh 0.5vh 1vh 0;
+  margin: 10.6vh 0 0 0;
+}
+
+.middle {
+  height: 30%;
+}
+
+.icon-table {
+  width: 10vh;
+}
+
+.item-table {
+  width: 11vh;
+  height: 11vh;
+  border: 0.6vh solid black;
+}
+
+.selections {
+  width: 17.6vh;
+  border: 0.3vh solid #30303b;
+  border-bottom-left-radius: 2vh;
+  border-bottom-right-radius: 2vh;
+}
+
+.option {
+  width: 4.5vh;
+  height: 4.5vh;
+  border-radius: 0.8vh;
+}
+
+.submenu {
+  width: 7.5vh;
+}
+
+#left-submenu {
+  height: 16vh;
+}
+
+#right-submenu {
+  height: 13vh;
+}
+
+.item-submenu-left {
+  height: 25%;
+  padding-right: 1vh;
+}
+
+#right-submenu span {
+  padding-left: 1vh;
+}
+
+#cast-reaction {
+  width: 8vh;
+  height: 8vh;
+  border-radius: 10vh;
+  margin-left: 12vh;
+  border: 0.7vh solid #e25822;
+}
+
+.footer-container {
+  width: 7vh;
+}
+
+.penguin {
+  margin: 0.8vh 0 0 1.1vh;
+  width: 5vh;
+}
+
+.penguin:hover {
+  opacity: 0.8;
+}
+
+.data-sign {
+  margin: 0.4vh 0 0 1.6vh;
+}
+
+.footer-container {
+  font-size: 1.6vh;
+}
